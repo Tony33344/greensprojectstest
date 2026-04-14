@@ -300,7 +300,10 @@
     "techStack": ["Next.js 14", "TypeScript", "TailwindCSS", "Framer Motion", "Lucide React"],
     "features": ["3 brand showcase (Glamping + Wellness + Resort)", "Advanced Framer Motion animations", "Multi-language (SL/EN)", "Contact section with embedded map", "Mobile-first design"],
     "status": "Production-ready",
-    "image": null,
+    "image": "/images/projectsscreenshots/auto/ori369-group/ori369-group_ver1.png",
+    "images": [
+      "/images/projectsscreenshots/auto/ori369-group/ori369-group_ver1.png"
+    ],
     "featured": false,
     "tags": ["Next.js", "Hospitality", "Multi-brand", "Framer Motion"]
   },
@@ -370,7 +373,10 @@
     "techStack": ["React", "Flask", "PostgreSQL", "Elasticsearch", "Redis", "MongoDB", "Celery", "Docker"],
     "features": ["Unified search across 100+ databases", "Advanced filtering: jurisdiction, date, court level", "Hague Convention specialized analysis", "Analytics dashboard with trend visualization", "Multi-language with integrated translation", "Docker Compose full deployment"],
     "status": "Complete",
-    "image": null,
+    "image": "/images/projectsscreenshots/auto/global-caselaw-search/global-caselaw-search_ver1.png",
+    "images": [
+      "/images/projectsscreenshots/auto/global-caselaw-search/global-caselaw-search_ver1.png"
+    ],
     "featured": false,
     "tags": ["Legal", "Search", "Elasticsearch", "Docker", "React"]
   },
@@ -398,7 +404,10 @@
     "techStack": ["Python", "CrewAI", "LangChain", "ChromaDB", "Flask"],
     "features": ["6 specialized AI agents", "PubMed, arXiv, Semantic Scholar integration", "Fact verification with source validation", "DOI/PMID/NCT validation", "ChromaDB vector store", "Flask web interface"],
     "status": "Complete",
-    "image": null,
+    "image": "/images/projectsscreenshots/auto/scientific-research-agent/scientific-research-agent_ver1.png",
+    "images": [
+      "/images/projectsscreenshots/auto/scientific-research-agent/scientific-research-agent_ver1.png"
+    ],
     "featured": false,
     "tags": ["AI", "Research", "CrewAI", "LangChain", "Python"]
   },
@@ -412,7 +421,10 @@
     "techStack": ["Python", "CrewAI", "Gemini API", "OpenAI API", "Anthropic API", "PubMed API", "Flask"],
     "features": ["Zero tolerance for fake/hallucinated data", "PubMed, arXiv, ClinicalTrials.gov, Semantic Scholar", "Multi-LLM support (Gemini/OpenAI/Anthropic)", "DOI, PMID, NCT ID validation", "Google Custom Search + Tavily + Serper", "Web UI + CLI"],
     "status": "Complete",
-    "image": null,
+    "image": "/images/projectsscreenshots/auto/scientific-research-real-data/scientific-research-real-data_ver1.png",
+    "images": [
+      "/images/projectsscreenshots/auto/scientific-research-real-data/scientific-research-real-data_ver1.png"
+    ],
     "featured": false,
     "tags": ["AI", "Research", "Multi-LLM", "CrewAI", "Data Integrity"]
   },
@@ -447,7 +459,10 @@
     "techStack": ["Python", "Qwen3-ASR", "Gradio", "FastAPI", "PyTorch", "WebSocket", "librosa"],
     "features": ["52 languages (including Slovenian)", "22 Chinese regional dialects", "Gradio GUI + FastAPI streaming + CLI", "Word-level timestamps with forced alignment", "CUDA GPU acceleration", "Real-time WebSocket streaming"],
     "status": "Complete",
-    "image": null,
+    "image": "/images/projectsscreenshots/auto/qwen3-asr/qwen3-asr_ver1.png",
+    "images": [
+      "/images/projectsscreenshots/auto/qwen3-asr/qwen3-asr_ver1.png"
+    ],
     "featured": false,
     "tags": ["AI", "ASR", "Speech", "Qwen3", "Python", "Multi-language"]
   },
@@ -461,7 +476,13 @@
     "techStack": ["JavaScript", "ONNX Runtime Web", "Vite", "Web Audio API", "CSS3"],
     "features": ["11 voices: 5 male + 5 female + 1 preset", "5 languages (EN/ES/PT/FR/KO)", "167× real-time synthesis speed", "100% in-browser — zero server needed", "CPU/GPU backend selection", "WAV audio download"],
     "status": "Complete",
-    "image": null,
+    "image": "/images/projectsscreenshots/auto/supertonic2-tts/supertonic2-tts_ver1.png",
+    "images": [
+      "/images/projectsscreenshots/auto/supertonic2-tts/supertonic2-tts_ver1.png",
+      "/images/projectsscreenshots/auto/supertonic2-tts/supertonic2-tts_ver1_scroll1.png",
+      "/images/projectsscreenshots/auto/supertonic2-tts/supertonic2-tts_ver1_scroll2.png",
+      "/images/projectsscreenshots/auto/supertonic2-tts/supertonic2-tts_extra1.png"
+    ],
     "featured": false,
     "tags": ["AI", "TTS", "Browser ML", "ONNX", "JavaScript"]
   },
@@ -475,7 +496,10 @@
     "techStack": ["Python", "PyTorch", "Transformers", "IBM Granite 4.0 Speech"],
     "features": ["Real-time speech translation", "IBM Granite 4.0 Speech model", "Multi-language support", "Speaker identification", "Live transcription output"],
     "status": "Complete",
-    "image": null,
+    "image": "/images/projectsscreenshots/auto/granite-speech-translator/granite-speech-translator_ver1.png",
+    "images": [
+      "/images/projectsscreenshots/auto/granite-speech-translator/granite-speech-translator_ver1.png"
+    ],
     "featured": false,
     "tags": ["AI", "Speech", "Translation", "IBM Granite", "Python"]
   },
@@ -489,7 +513,10 @@
     "techStack": ["Python", "OpenAI Whisper", "pyannote.audio", "PyTorch"],
     "features": ["High-accuracy German transcription", "Speaker diarization (who said what)", "Timestamp-aligned output", "OpenAI Whisper base/large models", "Batch and real-time modes"],
     "status": "Complete",
-    "image": null,
+    "image": "/images/projectsscreenshots/auto/german-transcription/german-transcription_ver1.png",
+    "images": [
+      "/images/projectsscreenshots/auto/german-transcription/german-transcription_ver1.png"
+    ],
     "featured": false,
     "tags": ["AI", "ASR", "German", "Whisper", "Speaker Diarization"]
   },
@@ -503,7 +530,10 @@
     "techStack": ["Python", "Claude Code", "Codex MCP", "Markdown", "Multi-model AI"],
     "features": ["31+ autonomous skill modules", "Overnight research execution", "Multi-model collaboration", "Markdown-defined skill system", "Codex MCP integration", "Continuous output generation"],
     "status": "Complete",
-    "image": null,
+    "image": "/images/projectsscreenshots/auto/aris/aris_ver1.png",
+    "images": [
+      "/images/projectsscreenshots/auto/aris/aris_ver1.png"
+    ],
     "featured": false,
     "tags": ["AI", "Autonomous", "Research", "Claude", "Agentic"]
   },
@@ -517,7 +547,10 @@
     "techStack": ["Python", "Flask", "OpenRouter API", "CrossRef API"],
     "features": ["Multi-agent parallel research", "CrossRef academic source verification", "OpenRouter multi-model access", "Verified source synthesis", "Flask web interface"],
     "status": "Complete",
-    "image": null,
+    "image": "/images/projectsscreenshots/auto/polaris-research/polaris-research_ver1.png",
+    "images": [
+      "/images/projectsscreenshots/auto/polaris-research/polaris-research_ver1.png"
+    ],
     "featured": false,
     "tags": ["AI", "Research", "Multi-agent", "OpenRouter", "Python"]
   },
@@ -531,7 +564,10 @@
     "techStack": ["Python", "Google Gemini 2.5 Flash/Pro", "Multi-agent AI", "CLI"],
     "features": ["4 specialized psychological AI agents", "Google Gemini 2.5 Flash & Pro support", "Configurable author wisdom pool", "Constitutional court analysis module", "Rich console output", "Export to file"],
     "status": "Complete",
-    "image": null,
+    "image": "/images/projectsscreenshots/auto/emotional-email-framework/emotional-email-framework_ver1.png",
+    "images": [
+      "/images/projectsscreenshots/auto/emotional-email-framework/emotional-email-framework_ver1.png"
+    ],
     "featured": false,
     "tags": ["AI", "Psychology", "Gemini", "Multi-agent", "Python"]
   },
@@ -545,7 +581,10 @@
     "techStack": ["HTML5", "CSS3", "JavaScript", "ElevenLabs SDK", "Python HTTPS Server"],
     "features": ["Real-time voice conversation", "ElevenLabs SDK integration", "Large professional knowledge base", "HTTPS server deployment", "Professional coaching persona"],
     "status": "Complete",
-    "image": null,
+    "image": "/images/projectsscreenshots/auto/sabina-coach-ai/sabina-coach-ai_ver1.png",
+    "images": [
+      "/images/projectsscreenshots/auto/sabina-coach-ai/sabina-coach-ai_ver1.png"
+    ],
     "featured": false,
     "tags": ["AI", "Voice", "ElevenLabs", "Coaching"]
   },
@@ -559,7 +598,10 @@
     "techStack": ["Python", "Playwright", "Bybit API v5", "WebSocket", "asyncio"],
     "features": ["Dual-mode: Playwright browser + API v5", "Real-time WebSocket position tracking", "Risk management + drawdown protection", "P&L monitoring and reporting", "Auto-reconnection logic", "Async Python architecture"],
     "status": "Production-ready",
-    "image": null,
+    "image": "/images/projectsscreenshots/auto/bybit-copytrading-bot/bybit-copytrading-bot_ver1.png",
+    "images": [
+      "/images/projectsscreenshots/auto/bybit-copytrading-bot/bybit-copytrading-bot_ver1.png"
+    ],
     "featured": false,
     "tags": ["Trading", "Bybit", "Automation", "Python", "WebSocket"]
   },
@@ -573,7 +615,10 @@
     "techStack": ["Python", "FastAPI", "PaddleOCR", "Qwen2-VL", "LLaVA", "Vast.ai"],
     "features": ["Invoice upload + OCR extraction", "VLM extraction (Qwen2-VL/LLaVA)", "Export: DATEV, QuickBooks, Xero", "Web UI + API documentation", "Structured data parsing"],
     "status": "Complete",
-    "image": null,
+    "image": "/images/projectsscreenshots/auto/invoice-ocr/invoice-ocr_ver1.png",
+    "images": [
+      "/images/projectsscreenshots/auto/invoice-ocr/invoice-ocr_ver1.png"
+    ],
     "featured": false,
     "tags": ["Python", "OCR", "FastAPI", "Document Processing", "AI"]
   },
@@ -587,7 +632,10 @@
     "techStack": ["Node.js", "JavaScript", "Multiple email APIs"],
     "features": ["Parallel voting simulation", "Multiple email provider support", "Proxy rotation", "Detailed statistics and reports", "Sunday call highlighting", "Excel output with formatting"],
     "status": "Complete",
-    "image": null,
+    "image": "/images/projectsscreenshots/auto/vote-load-tester/vote-load-tester_ver1.png",
+    "images": [
+      "/images/projectsscreenshots/auto/vote-load-tester/vote-load-tester_ver1.png"
+    ],
     "featured": false,
     "tags": ["Testing", "Automation", "Node.js", "Email"]
   },
@@ -601,7 +649,10 @@
     "techStack": ["Python", "RegEx", "CSV", "HTML parsing"],
     "features": ["Telegram HTML export parsing", "Call type, duration, status extraction", "Participant mapping", "Statistical breakdown", "CSV output"],
     "status": "Complete",
-    "image": null,
+    "image": "/images/projectsscreenshots/auto/telegram-call-extractor/telegram-call-extractor_ver1.png",
+    "images": [
+      "/images/projectsscreenshots/auto/telegram-call-extractor/telegram-call-extractor_ver1.png"
+    ],
     "featured": false,
     "tags": ["Python", "Data Processing", "Telegram", "Analytics"]
   },
@@ -615,7 +666,10 @@
     "techStack": ["Python", "Selenium", "Chrome WebDriver"],
     "features": ["Dual extraction methods", "Robust CSS selector detection", "Data validation and cleaning", "JSON output", "Headless and visual modes"],
     "status": "Complete",
-    "image": null,
+    "image": "/images/projectsscreenshots/auto/aurena-scraper/aurena-scraper_ver1.png",
+    "images": [
+      "/images/projectsscreenshots/auto/aurena-scraper/aurena-scraper_ver1.png"
+    ],
     "featured": false,
     "tags": ["Python", "Scraping", "Selenium", "Automation"]
   },
@@ -629,7 +683,10 @@
     "techStack": ["Python", "PDF processing", "HTML parsing", "Shell scripts"],
     "features": ["156KB master patent index", "33.9MB full patent texts extraction", "CBN cocrystallization analysis", "Cannabis extraction evolution study", "Shell script automation"],
     "status": "Complete",
-    "image": null,
+    "image": "/images/projectsscreenshots/auto/cannabis-patent-analysis/cannabis-patent-analysis_ver1.png",
+    "images": [
+      "/images/projectsscreenshots/auto/cannabis-patent-analysis/cannabis-patent-analysis_ver1.png"
+    ],
     "featured": false,
     "tags": ["Python", "Patents", "Research", "Data Processing"]
   },
@@ -657,7 +714,12 @@
     "techStack": ["React", "TypeScript", "Fabric.js", "pdf-lib", "Zustand", "react-dropzone"],
     "features": ["Canvas-based editing (Fabric.js)", "PDF manipulation (pdf-lib)", "Drag-and-drop file upload", "Annotation tools", "Page navigation", "Zustand state management"],
     "status": "Complete",
-    "image": null,
+    "image": "/images/projectsscreenshots/auto/pdf-editor/pdf-editor_ver1.png",
+    "images": [
+      "/images/projectsscreenshots/auto/pdf-editor/pdf-editor_ver1.png",
+      "/images/projectsscreenshots/auto/pdf-editor/pdf-editor_ver1_scroll1.png",
+      "/images/projectsscreenshots/auto/pdf-editor/pdf-editor_ver1_scroll2.png"
+    ],
     "featured": false,
     "tags": ["React", "PDF", "Canvas", "Fabric.js", "SaaS"]
   },
@@ -671,7 +733,10 @@
     "techStack": ["Markdown", "Markmap", "JavaScript"],
     "features": ["Visual mind maps (Markmap)", "Master IHL study guide", "Customary IHL reference", "Case law examples", "AI-generated assessments"],
     "status": "Complete",
-    "image": null,
+    "image": "/images/projectsscreenshots/auto/ppos-study-system/ppos-study-system_ver1.png",
+    "images": [
+      "/images/projectsscreenshots/auto/ppos-study-system/ppos-study-system_ver1.png"
+    ],
     "featured": false,
     "tags": ["Education", "IHL", "Mind Maps", "FDV"]
   },
@@ -685,7 +750,10 @@
     "techStack": ["Python", "Web Scraping", "ElevenLabs API"],
     "features": ["Automated web content scraping", "Q&A pair generation", "ElevenLabs voice integration", "Knowledge base structuring", "Agent-ready output"],
     "status": "Complete",
-    "image": null,
+    "image": "/images/projectsscreenshots/auto/sitis-knowledge-base/sitis-knowledge-base_ver1.png",
+    "images": [
+      "/images/projectsscreenshots/auto/sitis-knowledge-base/sitis-knowledge-base_ver1.png"
+    ],
     "featured": false,
     "tags": ["AI", "Knowledge Base", "Python", "ElevenLabs", "Scraping"]
   },
@@ -699,7 +767,10 @@
     "techStack": ["Node.js", "WebSocket", "ElevenLabs API", "Abacus.ai API"],
     "features": ["Real-time ElevenLabs voice agent", "Abacus.ai intelligent responses", "Real-time URL display system", "Intent detection", "Voice + text mode switching"],
     "status": "Complete",
-    "image": null,
+    "image": "/images/projectsscreenshots/auto/green-spirit-ai-chatbot/green-spirit-ai-chatbot_ver1.png",
+    "images": [
+      "/images/projectsscreenshots/auto/green-spirit-ai-chatbot/green-spirit-ai-chatbot_ver1.png"
+    ],
     "featured": false,
     "tags": ["AI", "Voice", "ElevenLabs", "Chatbot", "Node.js"]
   },
@@ -713,7 +784,10 @@
     "techStack": ["Python", "Data Analysis", "Web Scraping", "PDF Extraction"],
     "features": ["FIS and IBU data scraping", "Olympic.org data integration", "AJPES financial statement analysis", "Peer nation benchmarking", "Pipeline efficiency metrics"],
     "status": "Complete",
-    "image": null,
+    "image": "/images/projectsscreenshots/auto/ski-association-analysis/ski-association-analysis_ver1.png",
+    "images": [
+      "/images/projectsscreenshots/auto/ski-association-analysis/ski-association-analysis_ver1.png"
+    ],
     "featured": false,
     "tags": ["Data Analysis", "Sports", "Research", "Python"]
   },
@@ -768,7 +842,14 @@
     "techStack": ["HTML5", "CSS3", "JavaScript"],
     "features": ["Multi-page website", "Family office services showcase", "Personal advice section", "Smooth animations", "Responsive across all devices", "Contact form integration"],
     "status": "Complete",
-    "image": null,
+    "image": "/images/projectsscreenshots/auto/spiritshifting/spiritshifting_ver1.png",
+    "images": [
+      "/images/projectsscreenshots/auto/spiritshifting/spiritshifting_ver1.png",
+      "/images/projectsscreenshots/auto/spiritshifting/spiritshifting_ver1_scroll1.png",
+      "/images/projectsscreenshots/auto/spiritshifting/spiritshifting_ver1_scroll2.png",
+      "/images/projectsscreenshots/auto/spiritshifting/spiritshifting_extra1.png",
+      "/images/projectsscreenshots/auto/spiritshifting/spiritshifting_extra2.png"
+    ],
     "featured": false,
     "tags": ["Finance", "Family Office", "Corporate", "HTML/CSS/JS"]
   },
@@ -796,7 +877,12 @@
     "techStack": ["React 19", "Vite", "TypeScript", "TailwindCSS v4", "React Router v7"],
     "features": ["Multi-version design system", "React Router v7 SPA navigation", "Single-file Vite build", "Multiple HTML layout variants", "Mobile responsiveness focus", "TailwindCSS v4 styling"],
     "status": "In Development",
-    "image": null,
+    "image": "/images/projectsscreenshots/auto/bentral-real-estate/bentral-real-estate_ver1.png",
+    "images": [
+      "/images/projectsscreenshots/auto/bentral-real-estate/bentral-real-estate_ver1.png",
+      "/images/projectsscreenshots/auto/bentral-real-estate/bentral-real-estate_ver1_scroll1.png",
+      "/images/projectsscreenshots/auto/bentral-real-estate/bentral-real-estate_ver1_scroll2.png"
+    ],
     "featured": false,
     "tags": ["Real Estate", "React", "Vite", "Multi-version"]
   },
@@ -810,7 +896,10 @@
     "techStack": ["Python", "CrewAI", "EUR-Lex API", "EU Legal Databases"],
     "features": ["EU case law research agents", "EUR-Lex API integration", "Slovenian legal case processing", "Enhanced research logging", "EU case research test suite", "European legal document analysis"],
     "status": "Complete",
-    "image": null,
+    "image": "/images/projectsscreenshots/auto/legal-research-agents/legal-research-agents_ver1.png",
+    "images": [
+      "/images/projectsscreenshots/auto/legal-research-agents/legal-research-agents_ver1.png"
+    ],
     "featured": false,
     "tags": ["AI", "Legal", "EU", "CrewAI", "Python"]
   },
@@ -824,7 +913,10 @@
     "techStack": ["Python", "Piper TTS", "Coqui TTS", "FastAPI", "PyTorch"],
     "features": ["3 Slovenian voices (Artur, Common Voice, Piper E2)", "FastAPI REST API", "Speed control (0.5x–2.0x)", "WAV and MP3 output", "PDF document reading with TTS", "9/9 tests passed"],
     "status": "Complete",
-    "image": null,
+    "image": "/images/projectsscreenshots/auto/slovenian-tts-platform/slovenian-tts-platform_ver1.png",
+    "images": [
+      "/images/projectsscreenshots/auto/slovenian-tts-platform/slovenian-tts-platform_ver1.png"
+    ],
     "featured": false,
     "tags": ["AI", "TTS", "Slovenian", "FastAPI", "Python"]
   },
@@ -838,7 +930,10 @@
     "techStack": ["Python", "Google Gemini 2.0 Flash", "OCR", "wkhtmltopdf"],
     "features": ["5 specialized AI agents", "OCR + handwriting recognition", "New exam generation", "Student + teacher PDF output", "8 Slovenian school subjects", "Grades 1–9 support", "85% OCR confidence threshold"],
     "status": "Complete",
-    "image": null,
+    "image": "/images/projectsscreenshots/auto/slovenian-exam-processor/slovenian-exam-processor_ver1.png",
+    "images": [
+      "/images/projectsscreenshots/auto/slovenian-exam-processor/slovenian-exam-processor_ver1.png"
+    ],
     "featured": false,
     "tags": ["AI", "Education", "OCR", "Gemini", "Python", "Slovenian"]
   },
@@ -852,7 +947,10 @@
     "techStack": ["Python", "FastAPI", "PyMuPDF", "python-docx", "cryptography", "langdetect"],
     "features": ["PDF + DOCX anonymization", "Slovenian + German language support", "Encrypted reversible mapping", "CLI and Web UI (FastAPI)", "Project-based UUID tracking", "Automatic language detection", "OCR for scanned documents"],
     "status": "Complete",
-    "image": null,
+    "image": "/images/projectsscreenshots/auto/legal-anonymizer/legal-anonymizer_ver1.png",
+    "images": [
+      "/images/projectsscreenshots/auto/legal-anonymizer/legal-anonymizer_ver1.png"
+    ],
     "featured": false,
     "tags": ["Privacy", "Legal", "Python", "FastAPI", "OCR", "Slovenian"]
   },
@@ -866,7 +964,10 @@
     "techStack": ["Python", "youtube-transcript-api", "scrapetube", "yt-dlp", "BeautifulSoup4", "pandas"],
     "features": ["Complete channel transcript extraction", "Speaker identification from metadata", "Slovenian → English language priority", "Output organized by speaker category", "CSV + JSON + text logging", "Error handling for private/disabled videos"],
     "status": "Complete",
-    "image": null,
+    "image": "/images/projectsscreenshots/auto/youtube-transcript-extractor/youtube-transcript-extractor_ver1.png",
+    "images": [
+      "/images/projectsscreenshots/auto/youtube-transcript-extractor/youtube-transcript-extractor_ver1.png"
+    ],
     "featured": false,
     "tags": ["Python", "YouTube", "NLP", "Data Extraction", "Transcription"]
   },
@@ -880,7 +981,10 @@
     "techStack": ["Markdown", "Markmap", "JavaScript"],
     "features": ["Visual mind maps (Markmap)", "Master study guide", "Topic maps: Politics, Law, EU Policy, Case Studies", "Exam questions mapped to concepts", "Active recall flashcards", "5 cognitive science study techniques"],
     "status": "Complete",
-    "image": null,
+    "image": "/images/projectsscreenshots/auto/ipe-study-system/ipe-study-system_ver1.png",
+    "images": [
+      "/images/projectsscreenshots/auto/ipe-study-system/ipe-study-system_ver1.png"
+    ],
     "featured": false,
     "tags": ["Education", "Environment", "Mind Maps", "FDV", "Markmap"]
   },
@@ -894,7 +998,10 @@
     "techStack": ["HTML5", "CSS3", "JavaScript", "Vite", "Netlify"],
     "features": ["6 interactive learning modules", "Verbs, pronouns, numerals, indirect speech", "Quiz system per module", "Fun facts (Ali si vedel/a?) section", "Progress tracking via localStorage", "Netlify deployment"],
     "status": "Complete",
-    "image": null,
+    "image": "/images/projectsscreenshots/auto/slovenscina-6-razred/slovenscina-6-razred_ver1.png",
+    "images": [
+      "/images/projectsscreenshots/auto/slovenscina-6-razred/slovenscina-6-razred_ver1.png"
+    ],
     "featured": false,
     "tags": ["Education", "Slovenian", "Interactive", "Language Learning", "6th Grade"]
   },
