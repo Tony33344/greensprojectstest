@@ -36,3 +36,8 @@ next-env.d.ts
 Auto-claude-code-research-in-sleep*
 Mvcp*
 bentral*
+
+# auto screenshot tool output (local only, never push)
+screenshots_auto/
+generate-thumbnails.js
+node_modules

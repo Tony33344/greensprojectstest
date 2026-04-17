@@ -834,24 +834,18 @@
   },
   {
     "id": "spiritshifting",
-    "name": "SpiritShifting",
-    "tagline": "Family Office & Wealth Management — Multi-page Site",
+    "name": "Anonymous Swiss Family Office Platform",
+    "tagline": "Multi-page Wealth Management Website — Switzerland",
     "category": "Web Development",
     "subcategory": "Finance / Wealth Management",
-    "description": "Multi-page professional website for a family office and wealth management company. Pages cover SpiritShifting services, personal advice, family office services, location, and contact with smooth animations throughout.",
+    "description": "Multi-page professional website for a Swiss family office and wealth management company. Pages cover services, personal advice, family office services, location, and contact with smooth animations throughout. Client requested anonymity.",
     "techStack": ["HTML5", "CSS3", "JavaScript"],
     "features": ["Multi-page website", "Family office services showcase", "Personal advice section", "Smooth animations", "Responsive across all devices", "Contact form integration"],
     "status": "Complete",
-    "image": "/images/projectsscreenshots/auto/spiritshifting/spiritshifting_ver1.png",
-    "images": [
-      "/images/projectsscreenshots/auto/spiritshifting/spiritshifting_ver1.png",
-      "/images/projectsscreenshots/auto/spiritshifting/spiritshifting_ver1_scroll1.png",
-      "/images/projectsscreenshots/auto/spiritshifting/spiritshifting_ver1_scroll2.png",
-      "/images/projectsscreenshots/auto/spiritshifting/spiritshifting_extra1.png",
-      "/images/projectsscreenshots/auto/spiritshifting/spiritshifting_extra2.png"
-    ],
+    "image": null,
+    "images": [],
     "featured": false,
-    "tags": ["Finance", "Family Office", "Corporate", "HTML/CSS/JS"]
+    "tags": ["Finance", "Family Office", "Corporate", "HTML/CSS/JS", "Switzerland"]
   },
   {
     "id": "upr-slovenia-dashboard",

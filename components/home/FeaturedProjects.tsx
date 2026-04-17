@@ -9,6 +9,13 @@ import projectsData from "@/data/projects.json";
 
 const featured = projectsData.filter((p) => p.featured && p.image).slice(0, 8);
 
+// Helper to get thumbnail path from full image path
+const getThumbnailPath = (imagePath: string) => {
+  if (!imagePath) return imagePath;
+  return imagePath.replace('/images/projectsscreenshots/', '/images/projectsscreenshots/thumbnails/')
+    .replace('.png', '.jpg');
+};
+
 const categoryColor: Record<string, string> = {
   "Web Development": "bg-green-500/15 text-green-400 border-green-500/25",
   "AI & Machine Learning": "bg-blue-500/15 text-blue-400 border-blue-500/25",
@@ -76,7 +83,7 @@ export default function FeaturedProjects() {
                     {project.image ? (
                       <div className="relative w-full h-full cursor-pointer" onClick={(e) => { e.preventDefault(); openLightbox(project.image); }}>
                         <Image
-                          src={project.image}
+                          src={getThumbnailPath(project.image)}
                           alt={project.name}
                           fill
                           className="project-card-img object-cover object-top"

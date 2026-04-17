@@ -23,6 +23,13 @@ const categoryColor: Record<string, string> = {
   "Education & Research": "bg-indigo-500/15 text-indigo-400 border-indigo-500/25",
 };
 
+// Helper to get thumbnail path from full image path
+const getThumbnailPath = (imagePath: string) => {
+  if (!imagePath) return imagePath;
+  return imagePath.replace('/images/projectsscreenshots/', '/images/projectsscreenshots/thumbnails/')
+    .replace('.png', '.jpg');
+};
+
 export default function ProjectsPage() {
   const [active, setActive] = useState(ALL);
   const [query, setQuery] = useState("");
@@ -121,7 +128,7 @@ export default function ProjectsPage() {
                     {project.image ? (
                       <div className="relative w-full h-full cursor-pointer" onClick={(e) => { e.preventDefault(); openLightbox(project.image); }}>
                         <Image
-                          src={project.image}
+                          src={getThumbnailPath(project.image)}
                           alt={project.name}
                           fill
                           className="project-card-img object-cover object-top"
