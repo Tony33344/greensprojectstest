@@ -28,10 +28,10 @@ export default function Nav() {
   return (
     <header
       className={cn(
-        "fixed top-0 left-0 right-0 z-50 transition-all duration-300 border-b border-[var(--border-hover)]",
+        "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
         scrolled
-          ? "bg-[var(--bg-primary)]/90 backdrop-blur-xl shadow-lg shadow-black/5"
-          : "bg-[var(--bg-primary)]/80 backdrop-blur-md"
+          ? "bg-[var(--bg-primary)]/90 backdrop-blur-xl border-b border-[var(--border-hover)] shadow-lg shadow-black/5"
+          : "bg-transparent border-b border-transparent"
       )}
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-8 h-20 flex items-center justify-between">
@@ -41,7 +41,7 @@ export default function Nav() {
             alt="Green Spirit IT Solutions"
             width={2700}
             height={750}
-            className="h-60 w-auto object-contain transition-opacity group-hover:opacity-80"
+            className="h-10 w-auto object-contain transition-opacity group-hover:opacity-80"
             unoptimized
           />
         </Link>
