@@ -1,0 +1,2324 @@
+[
+  {
+    "id": "healthy-corner",
+    "name": "Healthy Corner",
+    "tagline": "Alpski zdraviliški kamp — Alpine Wellness Retreat",
+    "category": "Web Development",
+    "subcategory": "E-commerce / Wellness",
+    "description": "Full-stack wellness retreat website with CMS, media manager, e-commerce product catalog, shopping cart, order management, multi-language support, and a comprehensive booking system for classes and wellness programs.",
+    "techStack": [
+      "Next.js 14",
+      "TypeScript",
+      "TailwindCSS",
+      "Supabase",
+      "Framer Motion",
+      "Playwright"
+    ],
+    "features": [
+      "Full CMS with media manager",
+      "E-commerce with shopping cart",
+      "Booking system for classes",
+      "Multi-language (SL/EN)",
+      "Real ice bath & food gallery",
+      "Playwright E2E testing suite"
+    ],
+    "status": "Production-ready",
+    "image": "/images/projectsscreenshots/healthycorner.png",
+    "featured": true,
+    "tags": [
+      "Next.js",
+      "Supabase",
+      "E-commerce",
+      "Booking",
+      "Wellness"
+    ]
+  },
+  {
+    "id": "heaven-resort",
+    "name": "HEAVEN Resort",
+    "tagline": "Transformativna doživetja — Transformative Experiences",
+    "category": "Web Development",
+    "subcategory": "Hospitality / Events",
+    "description": "Elegant hospitality website for a nature retreat and event venue. Features brand-aligned purple design, smooth Framer Motion animations, booking system, multi-language support, and beautiful image galleries.",
+    "techStack": [
+      "Next.js 14",
+      "TypeScript",
+      "TailwindCSS",
+      "Framer Motion",
+      "Supabase"
+    ],
+    "features": [
+      "Elegant brand-aligned purple theme",
+      "Multi-language support (SL/EN)",
+      "Framer Motion animations",
+      "Booking system with inquiry forms",
+      "Package pricing for event types",
+      "SEO optimized"
+    ],
+    "status": "Production-ready",
+    "image": "/images/projectsscreenshots/heavenresort.png",
+    "featured": true,
+    "tags": [
+      "Next.js",
+      "Framer Motion",
+      "Hospitality",
+      "Booking"
+    ]
+  },
+  {
+    "id": "kmetija-marosa",
+    "name": "Kmetija Maroša",
+    "tagline": "Najboljše iz narave, dostavljeno na vaš prag",
+    "category": "Web Development",
+    "subcategory": "E-commerce / Agriculture",
+    "description": "Premium farm-to-table e-commerce platform with full Supabase backend, Stripe payments, multi-language support via i18next, QR code generation, gift product system, newsletter with Netlify Edge Functions, and comprehensive Playwright E2E test coverage.",
+    "techStack": [
+      "React 18",
+      "Vite",
+      "TypeScript",
+      "TailwindCSS",
+      "Supabase",
+      "Stripe",
+      "i18next",
+      "Playwright",
+      "Netlify"
+    ],
+    "features": [
+      "Full e-commerce with Stripe payments",
+      "Supabase backend + RLS security",
+      "Gift product + QR code system",
+      "Newsletter via Netlify Edge Functions",
+      "Multi-language (SL/EN)",
+      "Playwright E2E testing",
+      "Admin dashboard"
+    ],
+    "status": "Production-ready",
+    "image": "/images/projectsscreenshots/kmetijamarosa.png",
+    "featured": true,
+    "tags": [
+      "React",
+      "Supabase",
+      "Stripe",
+      "E-commerce",
+      "Agriculture"
+    ]
+  },
+  {
+    "id": "ori369-terapevtski-center",
+    "name": "ORI 369 Terapevtski Center",
+    "tagline": "Kakovostno življenje — Quality Life",
+    "category": "Web Development",
+    "subcategory": "Wellness / Booking / E-commerce",
+    "description": "Complete enhanced clone of ori369.com with real-time booking system, Supabase Auth, admin dashboard with role-based access, Google Calendar sync, 40+ Playwright E2E tests, and full e-commerce capabilities.",
+    "techStack": [
+      "Next.js 15",
+      "TypeScript",
+      "TailwindCSS",
+      "Supabase",
+      "Google Calendar API",
+      "Playwright"
+    ],
+    "features": [
+      "Real-time booking with availability",
+      "Supabase Auth + RBAC admin",
+      "Google Calendar integration",
+      "40+ Playwright E2E tests",
+      "Multi-language (Slovenian)",
+      "PostgreSQL with Row Level Security"
+    ],
+    "status": "Production-ready",
+    "image": "/images/projectsscreenshots/ori369_terapevtskicenter.png",
+    "featured": true,
+    "tags": [
+      "Next.js",
+      "Supabase",
+      "Booking",
+      "Wellness",
+      "Playwright"
+    ]
+  },
+  {
+    "id": "infinity-role-teachers",
+    "name": "Infinity Role Teachers",
+    "tagline": "Transform Your Life — Educational Platform",
+    "category": "Web Development",
+    "subcategory": "Education / E-commerce / Full-Stack",
+    "description": "Full-stack educational platform with Stripe payments, TipTap rich text editor, Shadcn UI, multi-language support, dark/light theme, Embla Carousel, React Day Picker scheduling, email notifications via Resend, and role-based access for students, teachers, and admins.",
+    "techStack": [
+      "Next.js 16",
+      "React 19",
+      "TypeScript",
+      "TailwindCSS v4",
+      "Supabase",
+      "Stripe",
+      "Shadcn UI",
+      "TipTap",
+      "Resend"
+    ],
+    "features": [
+      "Stripe payments integration",
+      "TipTap rich text editor",
+      "Role-based access (student/teacher/admin)",
+      "Multi-language via next-intl",
+      "Dark/light theme",
+      "Email notifications via Resend",
+      "Comprehensive Supabase schema"
+    ],
+    "status": "In Development",
+    "image": "/images/projectsscreenshots/infinityroleteachers.png",
+    "featured": true,
+    "tags": [
+      "Next.js",
+      "Stripe",
+      "Supabase",
+      "Education",
+      "Full-Stack"
+    ]
+  },
+  {
+    "id": "lte-apartments",
+    "name": "LTE Apartments",
+    "tagline": "Premium Rental Property Platform",
+    "category": "Web Development",
+    "subcategory": "Real Estate / Booking",
+    "description": "Modern rental property showcase and booking platform with multiple design variants, mobile-responsive layout, React Router navigation, and Vite single-file build for easy deployment.",
+    "techStack": [
+      "React 19",
+      "Vite 7",
+      "TypeScript",
+      "TailwindCSS v4",
+      "React Router",
+      "Lucide React"
+    ],
+    "features": [
+      "Multiple design variants",
+      "Mobile-first responsive layout",
+      "React Router SPA navigation",
+      "Single-file Vite build",
+      "Property showcase gallery",
+      "Contact and inquiry forms"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/lteapartments.png",
+    "featured": true,
+    "tags": [
+      "React",
+      "Vite",
+      "Real Estate",
+      "Booking"
+    ]
+  },
+  {
+    "id": "jaytee-ai-call-center",
+    "name": "AI Call Center",
+    "tagline": "AI-Powered Customer Support Solution",
+    "category": "AI & Machine Learning",
+    "subcategory": "Voice AI / Customer Service",
+    "description": "Intelligent AI call center solution with neural voice synthesis for automated customer support. Features real-time voice conversation, intent detection, and seamless handoff protocols.",
+    "techStack": [
+      "Next.js",
+      "TypeScript",
+      "Voice AI Engine",
+      "WebSockets",
+      "TailwindCSS"
+    ],
+    "features": [
+      "Real-time AI voice conversations",
+      "Intent detection and routing",
+      "Neural voice synthesis",
+      "Automated customer support flows",
+      "Handoff protocols"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/jaytecallcenter_ver1.png",
+    "featured": true,
+    "tags": [
+      "AI",
+      "Voice",
+      "Customer Service"
+    ]
+  },
+  {
+    "id": "jaytee-biosciences-chatbot",
+    "name": "Biosciences Chatbot",
+    "tagline": "Intelligent Bioscience Knowledge Assistant",
+    "category": "AI & Machine Learning",
+    "subcategory": "Chatbot / Knowledge Base",
+    "description": "Domain-specific AI chatbot for biosciences company with knowledge base integration, natural language understanding, and professional conversational interface.",
+    "techStack": [
+      "Next.js",
+      "TypeScript",
+      "AI/LLM APIs",
+      "TailwindCSS",
+      "Framer Motion"
+    ],
+    "features": [
+      "Domain-specific knowledge base",
+      "Natural language understanding",
+      "Professional conversational UI",
+      "Context-aware responses",
+      "Multi-turn conversation support"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/jayteechatbot.png",
+    "featured": true,
+    "tags": [
+      "AI",
+      "Chatbot",
+      "Biosciences",
+      "Knowledge Base"
+    ]
+  },
+  {
+    "id": "mvcp-web",
+    "name": "MVCP — International Human Rights Platform",
+    "tagline": "Interactive Learning — FDV Ljubljana",
+    "category": "Web Development",
+    "subcategory": "Education / Interactive",
+    "description": "Interactive educational website for FDV Ljubljana students studying international human rights law. Features a D3.js force-directed systems map, interactive timeline from 1215 to present, treaties explorer, 150+ question quiz, and global search.",
+    "techStack": [
+      "HTML5",
+      "CSS3",
+      "JavaScript ES6+",
+      "D3.js v7",
+      "Lucide Icons"
+    ],
+    "features": [
+      "Interactive timeline (Magna Carta → present)",
+      "D3.js force-directed systems graph",
+      "Treaties explorer with filtering",
+      "150+ question quiz system",
+      "Dark/light theme toggle",
+      "Keyboard shortcuts + global search (Cmd+K)"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/auto/mvcp-web/mvcp-web_ver1.png",
+    "featured": true,
+    "tags": [
+      "Education",
+      "D3.js",
+      "Interactive",
+      "Law",
+      "FDV"
+    ]
+  },
+  {
+    "id": "upr-fdv",
+    "name": "Univerzalni Periodični Pregled — UPR Platform",
+    "tagline": "UN Human Rights Review — FDV Educational Tool",
+    "category": "Web Development",
+    "subcategory": "Education / Legal",
+    "description": "Interactive educational platform covering the UN Universal Periodic Review process, built for FDV Ljubljana students. Clean, modern interface with structured content and visual learning aids.",
+    "techStack": [
+      "React",
+      "TypeScript",
+      "TailwindCSS",
+      "Vite"
+    ],
+    "features": [
+      "UPR process visualization",
+      "Country-by-country analysis",
+      "Recommendation tracking",
+      "Educational content structure",
+      "Clean minimal UI"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/Univerzalni periodični pregled_fdv_ver1.png",
+    "featured": true,
+    "tags": [
+      "Education",
+      "UN",
+      "Human Rights",
+      "FDV"
+    ]
+  },
+  {
+    "id": "ppos-fdv",
+    "name": "PPOS — Politika, Pravo, Oboroženi Spopadi",
+    "tagline": "International Humanitarian Law — FDV",
+    "category": "Web Development",
+    "subcategory": "Education / Interactive",
+    "description": "Interactive educational platform covering politics, law, and armed conflicts for FDV Ljubljana. Features visual mind maps, comprehensive study guides, and interactive exercises on international humanitarian law.",
+    "techStack": [
+      "React 19",
+      "Vite 7",
+      "TypeScript",
+      "TailwindCSS v4"
+    ],
+    "features": [
+      "Visual mind maps (Markmap)",
+      "Interactive IHL exercises",
+      "Case study analysis",
+      "Geneva Conventions coverage",
+      "Customary IHL reference"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/ppravaoborozenihspopadov_fdv.png",
+    "featured": true,
+    "tags": [
+      "Education",
+      "Law",
+      "IHL",
+      "FDV",
+      "Interactive"
+    ]
+  },
+  {
+    "id": "russian-language-platform",
+    "name": "Russian Language Learning Platform",
+    "tagline": "Interactive Language Education — FDV",
+    "category": "Web Development",
+    "subcategory": "Education / Language Learning",
+    "description": "Interactive Russian language learning platform for FDV students with AI voice synthesis for pronunciation, Supabase data management, NextAuth authentication, and Framer Motion animations.",
+    "techStack": [
+      "Next.js",
+      "TypeScript",
+      "TailwindCSS",
+      "Voice AI Engine",
+      "Supabase",
+      "NextAuth",
+      "Framer Motion"
+    ],
+    "features": [
+      "AI voice pronunciation",
+      "Interactive exercises and quizzes",
+      "Progress tracking with Supabase",
+      "User authentication via NextAuth",
+      "Framer Motion animations",
+      "Netlify deployment"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/russianlanguage_fdv.png",
+    "featured": true,
+    "tags": [
+      "Education",
+      "Language",
+      "FDV"
+    ]
+  },
+  {
+    "id": "mvzet-veterinar",
+    "name": "MVZET Veterinar",
+    "tagline": "Veterinary Clinic Website",
+    "category": "Web Development",
+    "subcategory": "Healthcare / Clinic",
+    "description": "Modern veterinary clinic website with professional design, service showcase, appointment booking, and clinic information. Clean, trustworthy aesthetic tailored for animal health professionals.",
+    "techStack": [
+      "React",
+      "TypeScript",
+      "TailwindCSS",
+      "Framer Motion"
+    ],
+    "features": [
+      "Service showcase",
+      "Appointment booking",
+      "Clinic team profiles",
+      "Contact and location",
+      "Mobile-first design"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/mvzet_veterinar.png",
+    "featured": true,
+    "tags": [
+      "Healthcare",
+      "Veterinary",
+      "Booking"
+    ]
+  },
+  {
+    "id": "apartma-pohorc",
+    "name": "Apartma Pohorč",
+    "tagline": "Mountain Apartment Rental Platform",
+    "category": "Web Development",
+    "subcategory": "Real Estate / Booking",
+    "description": "Mountain apartment rental website with booking calendar, admin panel, multi-language search, and visual gallery. Designed for a Slovenian alpine accommodation provider.",
+    "techStack": [
+      "React",
+      "TypeScript",
+      "TailwindCSS",
+      "Supabase"
+    ],
+    "features": [
+      "Booking calendar system",
+      "Admin panel",
+      "Multi-language search",
+      "Photo gallery",
+      "Mobile-responsive design"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/apartmapohorc.png",
+    "featured": true,
+    "tags": [
+      "Real Estate",
+      "Booking",
+      "Accommodation",
+      "Slovenia"
+    ]
+  },
+  {
+    "id": "the-green-beautiful",
+    "name": "The Green Beautiful",
+    "tagline": "Wellness & Beauty Platform",
+    "category": "Web Development",
+    "subcategory": "Wellness / Beauty",
+    "description": "Elegant wellness and beauty brand website with premium design aesthetic, service showcase, and online booking capabilities.",
+    "techStack": [
+      "React",
+      "TypeScript",
+      "TailwindCSS",
+      "Framer Motion"
+    ],
+    "features": [
+      "Premium design aesthetic",
+      "Service showcase",
+      "Online booking",
+      "Brand-aligned visuals",
+      "Mobile-first layout"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/thegreenbeautiful.png",
+    "featured": true,
+    "tags": [
+      "Wellness",
+      "Beauty",
+      "Booking",
+      "Lifestyle"
+    ]
+  },
+  {
+    "id": "awaken-uniq",
+    "name": "Awaken Your UNIQ Self",
+    "tagline": "Personal Growth & Transformation Platform",
+    "category": "Web Development",
+    "subcategory": "Wellness / Personal Development",
+    "description": "Premium personal development and transformation platform with Next.js 15, Supabase backend, Framer Motion animations, Zustand state management, and comprehensive content management for wellness programs.",
+    "techStack": [
+      "Next.js 15",
+      "React 19",
+      "TypeScript",
+      "TailwindCSS",
+      "Supabase",
+      "Framer Motion",
+      "Zustand"
+    ],
+    "features": [
+      "Wellness program management",
+      "User progress tracking",
+      "Supabase backend",
+      "Framer Motion animations",
+      "Responsive mobile design"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/awaken-uniq-self_home.png",
+    "featured": true,
+    "tags": [
+      "Wellness",
+      "Personal Development",
+      "Supabase",
+      "Framer Motion"
+    ]
+  },
+  {
+    "id": "h2o-team",
+    "name": "H2O Team",
+    "tagline": "Freediving & Spearfishing School E-commerce",
+    "category": "Web Development",
+    "subcategory": "E-commerce / Sports",
+    "description": "Bilingual e-commerce website for freediving and spearfishing school with full product catalog (259KB products), shopping cart, course listings, blog, events calendar, and ocean-inspired design system.",
+    "techStack": [
+      "Next.js 14",
+      "TypeScript",
+      "TailwindCSS",
+      "Zustand",
+      "Framer Motion",
+      "next-intl",
+      "Shadcn UI"
+    ],
+    "features": [
+      "Full e-commerce with 259KB product catalog",
+      "Shopping cart (Zustand)",
+      "Course listings: freediving, spearfishing, diving",
+      "Blog with marine life articles",
+      "Events calendar",
+      "Bilingual EN/SL support"
+    ],
+    "status": "Production-ready",
+    "image": "/images/projectsscreenshots/h2o_ver1.png",
+    "featured": true,
+    "tags": [
+      "Next.js",
+      "E-commerce",
+      "Sports",
+      "Bilingual",
+      "Shadcn UI"
+    ]
+  },
+  {
+    "id": "flowgen-turbines",
+    "name": "FlowGen Turbines",
+    "tagline": "Hydropower Solutions — Corporate Redesign",
+    "category": "Web Development",
+    "subcategory": "Renewable Energy / Corporate",
+    "description": "Modern corporate website redesign for a hydropower solutions company, targeting investors and customers with dynamic animations, interactive elements, and dedicated investor section.",
+    "techStack": [
+      "HTML5",
+      "CSS3",
+      "JavaScript"
+    ],
+    "features": [
+      "Modern responsive design",
+      "Dynamic animations",
+      "Investor section",
+      "Contact forms",
+      "Performance optimized"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/flowgen-turbines_home.png",
+    "featured": true,
+    "tags": [
+      "Corporate",
+      "Renewable Energy",
+      "HTML/CSS/JS"
+    ]
+  },
+  {
+    "id": "glosare-srl",
+    "name": "Glosare SRL",
+    "tagline": "E-commerce Corporate Website Redesign",
+    "category": "Web Development",
+    "subcategory": "E-commerce / Corporate",
+    "description": "Transformed an outdated website into a modern responsive site with improved navigation, 3D product demonstrations, product showcase with categories, and optimized fast-loading pages.",
+    "techStack": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Font Awesome",
+      "Google Fonts"
+    ],
+    "features": [
+      "Modern professional design",
+      "3D product demonstrations",
+      "Product showcase with categories",
+      "Improved navigation & UX",
+      "Fast-loading optimized assets"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/glosare-website_home.png",
+    "featured": true,
+    "tags": [
+      "E-commerce",
+      "Corporate",
+      "HTML/CSS/JS",
+      "3D"
+    ]
+  },
+  {
+    "id": "ori369-group",
+    "name": "ORI369 Group Landing Page",
+    "tagline": "Premium Hospitality Group — 3 Brands",
+    "category": "Web Development",
+    "subcategory": "Hospitality / Corporate",
+    "description": "Premium landing page showcasing three unique brands under the ORI369 hospitality group: ORI 369 Glamping (Teal), Healthy Corner Wellness (Lime), and HEAVEN Resort (Purple). Advanced Framer Motion, multi-language, embedded map.",
+    "techStack": [
+      "Next.js 14",
+      "TypeScript",
+      "TailwindCSS",
+      "Framer Motion",
+      "Lucide React"
+    ],
+    "features": [
+      "3 brand showcase (Glamping + Wellness + Resort)",
+      "Advanced Framer Motion animations",
+      "Multi-language (SL/EN)",
+      "Contact section with embedded map",
+      "Mobile-first design"
+    ],
+    "status": "Production-ready",
+    "image": "/images/projectsscreenshots/auto/ori369-group/ori369-group_ver1.png",
+    "featured": true,
+    "tags": [
+      "Next.js",
+      "Hospitality",
+      "Multi-brand",
+      "Framer Motion"
+    ]
+  },
+  {
+    "id": "watersports-booking",
+    "name": "Watersports Booking Platform",
+    "tagline": "Adventure Sports Booking — Lake Brezje",
+    "category": "Web Development",
+    "subcategory": "E-commerce / Booking",
+    "description": "Activity booking platform for wakeboarding, waterskiing, tube towing, banana boat, and jet skiing. Seasonal operation (June–September), real-time data management, Supabase Auth, and admin panel.",
+    "techStack": [
+      "Next.js",
+      "TypeScript",
+      "TailwindCSS",
+      "Supabase"
+    ],
+    "features": [
+      "5 activity types booking",
+      "Seasonal availability management",
+      "Supabase Auth",
+      "Admin dashboard",
+      "Secure payment integration"
+    ],
+    "status": "In Development",
+    "image": "/images/projectsscreenshots/watersport.png",
+    "featured": true,
+    "tags": [
+      "Next.js",
+      "Booking",
+      "Supabase",
+      "Sports",
+      "E-commerce"
+    ]
+  },
+  {
+    "id": "tentart",
+    "name": "Tentart Event Tents",
+    "tagline": "5-Language Event Tent Configurator",
+    "category": "Web Development",
+    "subcategory": "B2B / Event Industry",
+    "description": "5-language international event tent company website with Three.js 3D tent configurator, animated product showcase, custom inquiry system, and Framer Motion scroll animations. Deployed on Vercel.",
+    "techStack": [
+      "Next.js 14",
+      "TypeScript",
+      "TailwindCSS",
+      "Three.js",
+      "Framer Motion",
+      "Vercel"
+    ],
+    "features": [
+      "5 languages (SL/EN/DE/HR/IT)",
+      "Three.js 3D tent configurator",
+      "Product showcase with specifications",
+      "Custom inquiry system",
+      "Animated scroll sequences",
+      "Deployed on Vercel"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/tent-art-website_home.png",
+    "featured": true,
+    "tags": [
+      "Next.js",
+      "Three.js",
+      "3D",
+      "B2B",
+      "Multi-language"
+    ]
+  },
+  {
+    "id": "plesni-studio",
+    "name": "Plesni Studio S",
+    "tagline": "Dance Studio Website — Maribor",
+    "category": "Web Development",
+    "subcategory": "Dance / Lifestyle",
+    "description": "Modern full-stack dance studio website with React, online class booking, schedule with filtering, student portal, WhatsApp integration, event calendar, gallery with lightbox, and multi-language support for Plesni Studio S in Maribor.",
+    "techStack": [
+      "React 18",
+      "Vite",
+      "TailwindCSS",
+      "Shadcn UI",
+      "Framer Motion",
+      "React Router"
+    ],
+    "features": [
+      "Online booking for dance classes",
+      "Class schedule with filtering",
+      "Student portal",
+      "WhatsApp integration",
+      "Gallery with lightbox",
+      "Multi-language (SL/EN)"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/auto/plesni-studio/plesni-studio_ver1.png",
+    "featured": true,
+    "tags": [
+      "React",
+      "Dance",
+      "Booking",
+      "Shadcn UI"
+    ]
+  },
+  {
+    "id": "global-caselaw-search",
+    "name": "Global Case Law Search Engine",
+    "tagline": "Search 100+ Legal Databases Simultaneously",
+    "category": "Web Development",
+    "subcategory": "Legal / Research / Full-Stack",
+    "description": "Comprehensive search engine aggregating judicial decisions from 100+ case law databases worldwide (WorldLII, INCADAT, HUDOC/ECtHR). Features unified search, advanced filtering, analytics dashboard, Hague Convention analysis, and PDF/CSV export.",
+    "techStack": [
+      "React",
+      "Flask",
+      "PostgreSQL",
+      "Elasticsearch",
+      "Redis",
+      "MongoDB",
+      "Celery",
+      "Docker"
+    ],
+    "features": [
+      "Unified search across 100+ databases",
+      "Advanced filtering: jurisdiction, date, court level",
+      "Hague Convention specialized analysis",
+      "Analytics dashboard with trend visualization",
+      "Multi-language with integrated translation",
+      "Docker Compose full deployment"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/auto/global-caselaw-search/global-caselaw-search_ver1.png",
+    "featured": false,
+    "tags": [
+      "Legal",
+      "Search",
+      "Elasticsearch",
+      "Docker",
+      "React"
+    ]
+  },
+  {
+    "id": "upr-document-intelligence",
+    "name": "UPR Document Intelligence System",
+    "tagline": "AI-Powered UN Human Rights Document Analysis",
+    "category": "AI & Machine Learning",
+    "subcategory": "Legal AI / Document Intelligence",
+    "description": "Web application for downloading, analyzing, and visualizing all UN Universal Periodic Review documents. Semantic search with pgvector, 40,000+ recommendations extracted across 193 countries, citation generation, and interactive world maps.",
+    "techStack": [
+      "FastAPI",
+      "React",
+      "PostgreSQL",
+      "pgvector",
+      "sentence-transformers",
+      "Celery",
+      "Redis",
+      "PyMuPDF",
+      "Docker"
+    ],
+    "features": [
+      "Semantic search (pgvector + sentence-transformers)",
+      "40,000+ recommendations from 193 countries",
+      "Connection discovery between countries",
+      "Citation generation (UN, APA, Chicago, Bluebook)",
+      "Interactive world maps and network graphs",
+      "Docker Compose deployment"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/Univerzalni periodični pregled_fdv_ver1.png",
+    "featured": true,
+    "tags": [
+      "AI",
+      "Legal",
+      "UN",
+      "pgvector",
+      "FastAPI"
+    ]
+  },
+  {
+    "id": "scientific-research-agent",
+    "name": "Scientific Article Research Agent",
+    "tagline": "Multi-Agent AI Literature Search System",
+    "category": "AI & Machine Learning",
+    "subcategory": "Research Automation",
+    "description": "Multi-agent AI system for automated scientific literature search and synthesis. Specialized agents handle document ingestion, research planning, literature retrieval, article synthesis, fact verification, and citation management.",
+    "techStack": [
+      "Python",
+      "Multi-Agent Framework",
+      "Vector Database",
+      "Flask"
+    ],
+    "features": [
+      "6 specialized AI agents",
+      "PubMed, arXiv, Semantic Scholar integration",
+      "Fact verification with source validation",
+      "DOI/PMID/NCT validation",
+      "ChromaDB vector store",
+      "Flask web interface"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/auto/scientific-research-agent/scientific-research-agent_ver1.png",
+    "featured": false,
+    "tags": [
+      "AI",
+      "Research",
+      "Python"
+    ]
+  },
+  {
+    "id": "scientific-research-real-data",
+    "name": "Real Data Research Agent (Zero Fake Data)",
+    "tagline": "ZERO TOLERANCE FOR FAKE DATA Research System",
+    "category": "AI & Machine Learning",
+    "subcategory": "Research Automation / Verified",
+    "description": "Advanced scientific research agent with strict zero-tolerance policy for fabricated data. Integrates multiple academic databases and search engines. Supports various LLM providers.",
+    "techStack": [
+      "Python",
+      "Multi-Agent Framework",
+      "LLM APIs",
+      "Academic APIs",
+      "Flask"
+    ],
+    "features": [
+      "Zero tolerance for fake/hallucinated data",
+      "Multiple academic database integrations",
+      "Multi-provider LLM support",
+      "DOI, PMID, NCT ID validation",
+      "Custom search integration",
+      "Web UI + CLI"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/auto/scientific-research-real-data/scientific-research-real-data_ver1.png",
+    "featured": false,
+    "tags": [
+      "AI",
+      "Research",
+      "LLM",
+      "Data Integrity"
+    ]
+  },
+  {
+    "id": "voice-sandbox",
+    "name": "Modular Voice-to-Voice AI Sandbox",
+    "tagline": "Modular Voice-to-Voice AI Pipeline",
+    "category": "AI & Machine Learning",
+    "subcategory": "Voice AI / Browser",
+    "description": "Cutting-edge modular voice sandbox running entirely in the browser. Swap STT, LLM, and TTS engines independently. Uses Transformers.js for in-browser ML inference, ONNX Runtime, GPU acceleration, and high-performance inference API for ultra-fast LLM.",
+    "techStack": [
+      "Next.js 16",
+      "Transformers.js",
+      "ONNX Runtime",
+      "High-Performance Inference API",
+      "TTS Engine",
+      "STT Engine",
+      "GPU Acceleration"
+    ],
+    "features": [
+      "Modular STT/LLM/TTS engine swapping",
+      "In-browser ML inference",
+      "GPU acceleration",
+      "Ultra-fast LLM inference",
+      "Multiple TTS engine options",
+      "No server required for inference"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/ModularVoice-to-VoiceAISandbox_ver2.png",
+    "featured": true,
+    "tags": [
+      "AI",
+      "Voice",
+      "Browser ML",
+      "GPU Acceleration"
+    ]
+  },
+  {
+    "id": "qwen3-asr",
+    "name": "Multilingual Speech Recognition System",
+    "tagline": "52 Languages — Web UI + FastAPI + CLI",
+    "category": "AI & Machine Learning",
+    "subcategory": "Speech Recognition / ASR",
+    "description": "Complete web-based implementation supporting 52 languages and dialects including regional variants. Three interface modes: Web UI, FastAPI real-time streaming, and CLI batch processor.",
+    "techStack": [
+      "Python",
+      "ASR Model",
+      "Web UI Framework",
+      "FastAPI",
+      "PyTorch",
+      "WebSocket",
+      "librosa"
+    ],
+    "features": [
+      "52 languages (including Slovenian)",
+      "Regional dialect support",
+      "Web UI + FastAPI streaming + CLI",
+      "Word-level timestamps with forced alignment",
+      "CUDA GPU acceleration",
+      "Real-time WebSocket streaming"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/auto/qwen3-asr/qwen3-asr_ver1.png",
+    "featured": false,
+    "tags": [
+      "AI",
+      "ASR",
+      "Speech",
+      "Python",
+      "Multi-language"
+    ]
+  },
+  {
+    "id": "supertonic2-tts",
+    "name": "Browser-Native Text-to-Speech Engine",
+    "tagline": "167× Real-Time Browser TTS Engine",
+    "category": "AI & Machine Learning",
+    "subcategory": "Text-to-Speech / Browser",
+    "description": "Browser-native TTS interface using optimized ONNX neural model. Multiple preset voices, 5 languages, 167× faster than real-time, complete privacy with zero server calls, adjustable parameters, WAV download.",
+    "techStack": [
+      "JavaScript",
+      "ONNX Runtime Web",
+      "Vite",
+      "Web Audio API",
+      "CSS3"
+    ],
+    "features": [
+      "11 voices: 5 male + 5 female + 1 preset",
+      "5 languages (EN/ES/PT/FR/KO)",
+      "167× real-time synthesis speed",
+      "100% in-browser — zero server needed",
+      "CPU/GPU backend selection",
+      "WAV audio download"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/supertonic-tts_supertonic2.png",
+    "featured": true,
+    "tags": [
+      "AI",
+      "TTS",
+      "Browser ML",
+      "ONNX",
+      "JavaScript"
+    ],
+    "images": [
+      "/images/projectsscreenshots/supertonic-tts_supertonic2.png",
+      "/images/projectsscreenshots/supertonic-tts_v2.png"
+    ]
+  },
+  {
+    "id": "granite-speech-translator",
+    "name": "Real-Time Speech Translator System",
+    "tagline": "Neural Speech-to-Speech Translation",
+    "category": "AI & Machine Learning",
+    "subcategory": "Speech Translation",
+    "description": "Real-time speech translation and transcription system powered by advanced neural speech model. Supports multi-language transcription with speaker identification and live translation output.",
+    "techStack": [
+      "Python",
+      "PyTorch",
+      "Transformers",
+      "Neural Speech Model"
+    ],
+    "features": [
+      "Real-time speech translation",
+      "Neural speech model",
+      "Multi-language support",
+      "Speaker identification",
+      "Live transcription output"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/auto/granite-speech-translator/granite-speech-translator_ver1.png",
+    "featured": false,
+    "tags": [
+      "AI",
+      "Speech",
+      "Translation",
+      "Python"
+    ]
+  },
+  {
+    "id": "german-transcription",
+    "name": "German Speech Transcription System",
+    "tagline": "High-Accuracy German ASR with Speaker Diarization",
+    "category": "AI & Machine Learning",
+    "subcategory": "Speech Recognition / Transcription",
+    "description": "High-accuracy German speech transcription system using advanced ASR engine with speaker diarization library. Identifies who said what and when with timestamp-aligned transcription.",
+    "techStack": [
+      "Python",
+      "ASR Engine",
+      "Speaker Diarization Library",
+      "PyTorch"
+    ],
+    "features": [
+      "High-accuracy German transcription",
+      "Speaker diarization (who said what)",
+      "Timestamp-aligned output",
+      "Multiple ASR model sizes",
+      "Batch and real-time modes"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/auto/german-transcription/german-transcription_ver1.png",
+    "featured": false,
+    "tags": [
+      "AI",
+      "ASR",
+      "German",
+      "Speaker Diarization"
+    ]
+  },
+  {
+    "id": "aris",
+    "name": "ARIS — Autonomous Research in Sleep",
+    "tagline": "31+ Skills · AI Code Generation · Autonomous Research",
+    "category": "AI & Machine Learning",
+    "subcategory": "Research Automation / Agentic",
+    "description": "Autonomous research system with 31+ skill modules running overnight. Built on Markdown-defined skills with AI code generation agents and multi-model collaboration for continuous research output.",
+    "techStack": [
+      "Python",
+      "AI Code Agents",
+      "MCP Integration",
+      "Markdown",
+      "Multi-model AI"
+    ],
+    "features": [
+      "31+ autonomous skill modules",
+      "Overnight research execution",
+      "Multi-model collaboration",
+      "Markdown-defined skill system",
+      "MCP integration",
+      "Continuous output generation"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/auto/aris/aris_ver1.png",
+    "featured": false,
+    "tags": [
+      "AI",
+      "Autonomous",
+      "Research",
+      "Agentic"
+    ]
+  },
+  {
+    "id": "polaris-research",
+    "name": "Polaris Research System",
+    "tagline": "Multi-Agent Research with Verified Sources",
+    "category": "AI & Machine Learning",
+    "subcategory": "Research Automation",
+    "description": "Multi-agent research orchestration system using LLM gateway and academic database APIs for verified source synthesis. Agents work in parallel to gather, verify, and synthesize research from academic sources.",
+    "techStack": [
+      "Python",
+      "Flask",
+      "LLM Gateway",
+      "Academic Database API"
+    ],
+    "features": [
+      "Multi-agent parallel research",
+      "Academic source verification",
+      "Multi-model access",
+      "Verified source synthesis",
+      "Flask web interface"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/auto/polaris-research/polaris-research_ver1.png",
+    "featured": false,
+    "tags": [
+      "AI",
+      "Research",
+      "Multi-Agent",
+      "Python"
+    ]
+  },
+  {
+    "id": "emotional-email-framework",
+    "name": "Emotional Email Response Framework",
+    "tagline": "4 AI Agents — Psychology + Strategic Wisdom",
+    "category": "AI & Machine Learning",
+    "subcategory": "Psychology AI / Multi-Agent",
+    "description": "Sophisticated multi-agent system for analyzing and responding to emotional emails using 4 specialized AI agents: Clinical Psychologist, Female Psychologist, Author Wisdom (Greene/Brown/Goleman), and Strategic Synthesizer. Uses Google Gemini 2.5.",
+    "techStack": [
+      "Python",
+      "Google Gemini 2.5 Flash/Pro",
+      "Multi-agent AI",
+      "CLI"
+    ],
+    "features": [
+      "4 specialized psychological AI agents",
+      "Google Gemini 2.5 Flash & Pro support",
+      "Configurable author wisdom pool",
+      "Constitutional court analysis module",
+      "Rich console output",
+      "Export to file"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/auto/emotional-email-framework/emotional-email-framework_ver1.png",
+    "featured": false,
+    "tags": [
+      "AI",
+      "Psychology",
+      "Gemini",
+      "Multi-agent",
+      "Python"
+    ]
+  },
+  {
+    "id": "sabina-coach-ai",
+    "name": "Sabina Coach AI",
+    "tagline": "Professional AI Coaching with Real-Time Voice",
+    "category": "AI & Machine Learning",
+    "subcategory": "Voice AI / Coaching",
+    "description": "Professional AI coaching interface with ElevenLabs SDK real-time voice conversation, large professional knowledge base, and HTTPS Python server. Testing interface for production-ready coaching deployment.",
+    "techStack": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "ElevenLabs SDK",
+      "Python HTTPS Server"
+    ],
+    "features": [
+      "Real-time voice conversation",
+      "ElevenLabs SDK integration",
+      "Large professional knowledge base",
+      "HTTPS server deployment",
+      "Professional coaching persona"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/auto/sabina-coach-ai/sabina-coach-ai_ver1.png",
+    "featured": true,
+    "tags": [
+      "AI",
+      "Voice",
+      "ElevenLabs",
+      "Coaching"
+    ]
+  },
+  {
+    "id": "bybit-copytrading-bot",
+    "name": "Bybit Copytrading Bot",
+    "tagline": "Automated Trading with Risk Management",
+    "category": "Tools & Utilities",
+    "subcategory": "Trading / Automation",
+    "description": "Production-ready Bybit copytrading bot with dual-mode operation: automated browser control via Playwright and direct API v5 + WebSocket. Full risk management, position tracking, P&L monitoring, drawdown protection, and auto-reconnection.",
+    "techStack": [
+      "Python",
+      "Playwright",
+      "Bybit API v5",
+      "WebSocket",
+      "asyncio"
+    ],
+    "features": [
+      "Dual-mode: Playwright browser + API v5",
+      "Real-time WebSocket position tracking",
+      "Risk management + drawdown protection",
+      "P&L monitoring and reporting",
+      "Auto-reconnection logic",
+      "Async Python architecture"
+    ],
+    "status": "Production-ready",
+    "image": "/images/projectsscreenshots/auto/bybit-copytrading-bot/bybit-copytrading-bot_ver1.png",
+    "featured": false,
+    "tags": [
+      "Trading",
+      "Bybit",
+      "Automation",
+      "Python",
+      "WebSocket"
+    ]
+  },
+  {
+    "id": "invoice-ocr",
+    "name": "Invoice OCR Processor",
+    "tagline": "AI-Powered Invoice Extraction for Bookkeeping",
+    "category": "Tools & Utilities",
+    "subcategory": "Document Processing / OCR",
+    "description": "FastAPI application using PaddleOCR and Vision Language Models (Qwen2-VL, LLaVA via Vast.ai) to extract structured data from invoice images and PDFs. Exports to DATEV, QuickBooks, and Xero formats.",
+    "techStack": [
+      "Python",
+      "FastAPI",
+      "PaddleOCR",
+      "Qwen2-VL",
+      "LLaVA",
+      "Vast.ai"
+    ],
+    "features": [
+      "Invoice upload + OCR extraction",
+      "VLM extraction (Qwen2-VL/LLaVA)",
+      "Export: DATEV, QuickBooks, Xero",
+      "Web UI + API documentation",
+      "Structured data parsing"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/auto/invoice-ocr/invoice-ocr_ver1.png",
+    "featured": false,
+    "tags": [
+      "Python",
+      "OCR",
+      "FastAPI",
+      "Document Processing",
+      "AI"
+    ]
+  },
+  {
+    "id": "vote-load-tester",
+    "name": "Vote Load Tester",
+    "tagline": "High-Volume Email Voting Automation",
+    "category": "Tools & Utilities",
+    "subcategory": "Testing / Automation",
+    "description": "High-volume load testing tool for email-based voting systems using multiple email service providers (tempmail, inboxes, EmailJS). Features parallel voting, proxy rotation, detailed statistics, and Sunday call highlighting.",
+    "techStack": [
+      "Node.js",
+      "JavaScript",
+      "Multiple email APIs"
+    ],
+    "features": [
+      "Parallel voting simulation",
+      "Multiple email provider support",
+      "Proxy rotation",
+      "Detailed statistics and reports",
+      "Sunday call highlighting",
+      "Excel output with formatting"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/auto/vote-load-tester/vote-load-tester_ver1.png",
+    "featured": true,
+    "tags": [
+      "Testing",
+      "Automation",
+      "Node.js",
+      "Email"
+    ]
+  },
+  {
+    "id": "telegram-call-extractor",
+    "name": "Telegram Call Data Extractor",
+    "tagline": "HTML Export → Structured CSV Analytics",
+    "category": "Tools & Utilities",
+    "subcategory": "Data Processing / Analytics",
+    "description": "Python script that extracts call information from Telegram HTML exports and converts to structured CSV. Analyzed 105 calls with breakdown by type, status, caller, and total talk time. Uses regex for robust HTML parsing.",
+    "techStack": [
+      "Python",
+      "RegEx",
+      "CSV",
+      "HTML parsing"
+    ],
+    "features": [
+      "Telegram HTML export parsing",
+      "Call type, duration, status extraction",
+      "Participant mapping",
+      "Statistical breakdown",
+      "CSV output"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/auto/telegram-call-extractor/telegram-call-extractor_ver1.png",
+    "featured": false,
+    "tags": [
+      "Python",
+      "Data Processing",
+      "Telegram",
+      "Analytics"
+    ]
+  },
+  {
+    "id": "aurena-scraper",
+    "name": "Aurena.at Auction Scraper",
+    "tagline": "Automated Auction Data Extraction",
+    "category": "Tools & Utilities",
+    "subcategory": "Web Scraping / Automation",
+    "description": "Selenium-based scraper for aurena.at auction pages with dual extraction methods (JavaScript + DOM parsing), robust CSS selector detection, data validation, and JSON output.",
+    "techStack": [
+      "Python",
+      "Selenium",
+      "Chrome WebDriver"
+    ],
+    "features": [
+      "Dual extraction methods",
+      "Robust CSS selector detection",
+      "Data validation and cleaning",
+      "JSON output",
+      "Headless and visual modes"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/auto/aurena-scraper/aurena-scraper_ver1.png",
+    "featured": false,
+    "tags": [
+      "Python",
+      "Scraping",
+      "Selenium",
+      "Automation"
+    ]
+  },
+  {
+    "id": "cannabis-patent-analysis",
+    "name": "Cannabis Patent Analysis System",
+    "tagline": "33.9MB Patent Portfolio — Full Extraction",
+    "category": "Tools & Utilities",
+    "subcategory": "Research / Patent Analysis",
+    "description": "Comprehensive cannabis/cannabinoid patent extraction and analysis system producing a 156KB master index, 33.9MB full patent texts, and 8.1MB abstracts database. Includes CBN cocrystallization analysis and extraction evolution study.",
+    "techStack": [
+      "Python",
+      "PDF processing",
+      "HTML parsing",
+      "Shell scripts"
+    ],
+    "features": [
+      "156KB master patent index",
+      "33.9MB full patent texts extraction",
+      "CBN cocrystallization analysis",
+      "Cannabis extraction evolution study",
+      "Shell script automation"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/auto/cannabis-patent-analysis/cannabis-patent-analysis_ver1.png",
+    "featured": false,
+    "tags": [
+      "Python",
+      "Patents",
+      "Research",
+      "Data Processing"
+    ]
+  },
+  {
+    "id": "mvcp2026-webapp",
+    "name": "MVCP 2026 Web Platform",
+    "tagline": "React 19 + Vite 7 — Single-File Human Rights App",
+    "category": "Web Development",
+    "subcategory": "Education / Interactive",
+    "description": "Modern React 19 + Vite 7 rebuild of the MVCP Human Rights educational platform. Single-file build for easy distribution via vite-plugin-singlefile, TailwindCSS v4, and updated 2026 curriculum content.",
+    "techStack": [
+      "React 19",
+      "Vite 7",
+      "TypeScript",
+      "TailwindCSS v4"
+    ],
+    "features": [
+      "Single-file build output",
+      "React 19 with latest Vite 7",
+      "TailwindCSS v4",
+      "2026 curriculum content",
+      "Quick distribution"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/mvcpweb_home.png",
+    "featured": true,
+    "tags": [
+      "React",
+      "Education",
+      "Vite",
+      "Human Rights"
+    ]
+  },
+  {
+    "id": "pdf-editor",
+    "name": "PDF Editor Pro",
+    "tagline": "Browser-Based PDF Editing with AI Assistance",
+    "category": "Web Development",
+    "subcategory": "Productivity / SaaS",
+    "description": "Browser-based PDF editor with canvas editing via Fabric.js, PDF manipulation with pdf-lib, drag-and-drop upload, Zustand state management, page navigation, and annotation tools.",
+    "techStack": [
+      "React",
+      "TypeScript",
+      "Fabric.js",
+      "pdf-lib",
+      "Zustand",
+      "react-dropzone"
+    ],
+    "features": [
+      "Canvas-based editing (Fabric.js)",
+      "PDF manipulation (pdf-lib)",
+      "Drag-and-drop file upload",
+      "Annotation tools",
+      "Page navigation",
+      "Zustand state management"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/auto/pdf-editor/pdf-editor_ver1.png",
+    "featured": true,
+    "tags": [
+      "React",
+      "PDF",
+      "Canvas",
+      "Fabric.js",
+      "SaaS"
+    ]
+  },
+  {
+    "id": "ppos-study-system",
+    "name": "PPOS Study System",
+    "tagline": "Interactive IHL Mind Maps — FDV",
+    "category": "Education & Research",
+    "subcategory": "Study Tools",
+    "description": "Visual study system for International Humanitarian Law with Markmap mind maps, master study guide, IHL cases reference, Customary IHL quick reference, and AI-generated assessment examples.",
+    "techStack": [
+      "Markdown",
+      "Markmap",
+      "JavaScript"
+    ],
+    "features": [
+      "Visual mind maps (Markmap)",
+      "Master IHL study guide",
+      "Customary IHL reference",
+      "Case law examples",
+      "AI-generated assessments"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/ppravaoborozenihspopadov_fdv.png",
+    "featured": false,
+    "tags": [
+      "Education",
+      "IHL",
+      "Mind Maps",
+      "FDV"
+    ],
+    "images": [
+      "/images/projectsscreenshots/ppravaoborozenihspopadov_fdv.png"
+    ]
+  },
+  {
+    "id": "sitis-knowledge-base",
+    "name": "SITIS.si Knowledge Base Builder",
+    "tagline": "AI-Powered Q&A Knowledge Base from Web Content",
+    "category": "AI & Machine Learning",
+    "subcategory": "Knowledge Management",
+    "description": "Python scraper and ElevenLabs-powered system that builds a structured Q&A knowledge base from web content. Processes pages from sitis.si and generates voice-ready knowledge base for conversational AI agents.",
+    "techStack": [
+      "Python",
+      "Web Scraping",
+      "ElevenLabs API"
+    ],
+    "features": [
+      "Automated web content scraping",
+      "Q&A pair generation",
+      "ElevenLabs voice integration",
+      "Knowledge base structuring",
+      "Agent-ready output"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/auto/sitis-knowledge-base/sitis-knowledge-base_ver1.png",
+    "featured": false,
+    "tags": [
+      "AI",
+      "Knowledge Base",
+      "Python",
+      "ElevenLabs",
+      "Scraping"
+    ]
+  },
+  {
+    "id": "green-spirit-ai-chatbot",
+    "name": "Green Spirit AI Chatbot",
+    "tagline": "Business Chatbot with ElevenLabs + Abacus.ai",
+    "category": "AI & Machine Learning",
+    "subcategory": "Chatbot / Voice AI",
+    "description": "Real-time voice agent combining ElevenLabs Conversational AI with Abacus.ai intelligent chatbot. Features URL display, intent detection, seamless voice+text switching, and Node.js WebSocket backend.",
+    "techStack": [
+      "Node.js",
+      "WebSocket",
+      "ElevenLabs API",
+      "Abacus.ai API"
+    ],
+    "features": [
+      "Real-time ElevenLabs voice agent",
+      "Abacus.ai intelligent responses",
+      "Real-time URL display system",
+      "Intent detection",
+      "Voice + text mode switching"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/auto/green-spirit-ai-chatbot/green-spirit-ai-chatbot_ver1.png",
+    "featured": false,
+    "tags": [
+      "AI",
+      "Voice",
+      "ElevenLabs",
+      "Chatbot",
+      "Node.js"
+    ]
+  },
+  {
+    "id": "ski-association-analysis",
+    "name": "Slovenian Ski Association Analysis",
+    "tagline": "Data-Driven Efficiency Analysis 2015–2025",
+    "category": "Education & Research",
+    "subcategory": "Data Analysis",
+    "description": "Comprehensive data-driven analysis of SZS (Slovenian Ski Association) efficiency 2015–2025, examining organizational efficiency, athlete development pipelines, competitive results, and financial efficiency against peer nations.",
+    "techStack": [
+      "Python",
+      "Data Analysis",
+      "Web Scraping",
+      "PDF Extraction"
+    ],
+    "features": [
+      "FIS and IBU data scraping",
+      "Olympic.org data integration",
+      "AJPES financial statement analysis",
+      "Peer nation benchmarking",
+      "Pipeline efficiency metrics"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/auto/ski-association-analysis/ski-association-analysis_ver1.png",
+    "featured": false,
+    "tags": [
+      "Data Analysis",
+      "Sports",
+      "Research",
+      "Python"
+    ]
+  },
+  {
+    "id": "ams4ever-ag",
+    "name": "AMS4EVER AG",
+    "tagline": "Swiss Professional Services — Corporate Website",
+    "category": "Web Development",
+    "subcategory": "Corporate / Business",
+    "description": "Modern professional website for a Swiss professional services company featuring animated hero statistics, services showcase, team profiles, and AOS scroll animations. WCAG accessibility compliant with structured data SEO.",
+    "techStack": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "AOS Library",
+      "Font Awesome",
+      "Google Fonts"
+    ],
+    "features": [
+      "Hero with animated statistics",
+      "Services + About + Team sections",
+      "AOS scroll animations",
+      "Contact form with validation",
+      "WCAG accessibility compliance",
+      "SEO with structured data",
+      "Mobile-first responsive"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/ams4ever_scroll.png",
+    "featured": true,
+    "tags": [
+      "Corporate",
+      "Switzerland",
+      "HTML/CSS/JS",
+      "Accessibility"
+    ],
+    "images": [
+      "/images/projectsscreenshots/ams4ever_scroll.png"
+    ]
+  },
+  {
+    "id": "sara-choi-road-to-gold",
+    "name": "Sara Choi & Eunmi Eo — Road to Gold 2026",
+    "tagline": "Paralympic Para-Alpine Skiing — Milano Cortina 2026",
+    "category": "Web Development",
+    "subcategory": "Sports / Sponsorship",
+    "description": "Paralympic athlete website for visually impaired para-alpine skier Sara Choi and sighted guide Eunmi Eo. Countdown to 2026 Milano Cortina Paralympics, sponsorship opportunities, athlete profiles, and WCAG 2.1 AA accessibility compliance with Korean flag color palette.",
+    "techStack": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Font Awesome",
+      "Google Fonts"
+    ],
+    "features": [
+      "Live countdown to 2026 Paralympics",
+      "Athlete + guide profiles",
+      "Sponsorship tiers and donation system",
+      "News & updates section",
+      "Photo gallery with hover effects",
+      "WCAG 2.1 AA compliance",
+      "Korean flag color palette"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/new/saraeuinmigold_ver1.png",
+    "featured": true,
+    "tags": [
+      "Sports",
+      "Paralympic",
+      "Accessibility",
+      "Sponsorship"
+    ]
+  },
+  {
+    "id": "spiritshifting",
+    "name": "Anonymous Swiss Family Office Platform",
+    "tagline": "Multi-page Wealth Management Website — Switzerland",
+    "category": "Web Development",
+    "subcategory": "Finance / Wealth Management",
+    "description": "Multi-page professional website for a Swiss family office and wealth management company. Pages cover services, personal advice, family office services, location, and contact with smooth animations throughout. Client requested anonymity.",
+    "techStack": [
+      "HTML5",
+      "CSS3",
+      "JavaScript"
+    ],
+    "features": [
+      "Multi-page website",
+      "Family office services showcase",
+      "Personal advice section",
+      "Smooth animations",
+      "Responsive across all devices",
+      "Contact form integration"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/auto/spiritshifting/spiritshifting_extra1.png",
+    "featured": true,
+    "tags": [
+      "Finance",
+      "Family Office",
+      "Corporate",
+      "HTML/CSS/JS",
+      "Switzerland"
+    ]
+  },
+  {
+    "id": "upr-slovenia-dashboard",
+    "name": "UPR Slovenia — Government Data Dashboard",
+    "tagline": "PWA · D3.js · Offline-capable · Netlify",
+    "category": "Web Development",
+    "subcategory": "Government / Data Visualization",
+    "description": "Interactive PWA dashboard for UPR Slovenia with service worker for offline capability, D3.js data visualizations, manifest-based installation, caching strategy, and Netlify deployment.",
+    "techStack": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "D3.js",
+      "PWA",
+      "Netlify"
+    ],
+    "features": [
+      "Progressive Web App (installable)",
+      "Service worker + offline caching",
+      "D3.js data visualizations",
+      "Government data integration",
+      "Netlify deployment",
+      "Mobile responsive"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/upr-slo-1_home.png",
+    "featured": true,
+    "tags": [
+      "Government",
+      "PWA",
+      "D3.js",
+      "Offline",
+      "Netlify"
+    ],
+    "images": [
+      "/images/projectsscreenshots/upr-slo-1_home.png"
+    ]
+  },
+  {
+    "id": "bentral-real-estate",
+    "name": "LTE Apartments",
+    "tagline": "Modern apartment listings platform",
+    "category": "Web Development",
+    "subcategory": "Real Estate / Platform",
+    "description": "Multi-version real estate platform built with React 19, Vite, and TailwindCSS v4. Includes multiple design variants (big-open, high-q, lte-high), React Router v7 navigation, single-file build via vite-plugin-singlefile, and mobile-responsive improvements across versions.",
+    "techStack": [
+      "React 19",
+      "Vite",
+      "TypeScript",
+      "TailwindCSS v4",
+      "React Router v7"
+    ],
+    "features": [
+      "Multi-version design system",
+      "React Router v7 SPA navigation",
+      "Single-file Vite build",
+      "Multiple HTML layout variants",
+      "Mobile responsiveness focus",
+      "TailwindCSS v4 styling"
+    ],
+    "status": "In Development",
+    "image": "/images/projectsscreenshots/lteapartments.png",
+    "images": [
+      "/images/projectsscreenshots/lteapartments.png"
+    ],
+    "featured": false,
+    "tags": [
+      "Real Estate",
+      "React",
+      "Vite",
+      "Multi-version"
+    ]
+  },
+  {
+    "id": "legal-research-agents",
+    "name": "Legal Research Agents",
+    "tagline": "EU Case Law · EUR-Lex · Multi-agent AI",
+    "category": "AI & Machine Learning",
+    "subcategory": "Legal AI / Research",
+    "description": "Multi-agent AI system for EU legal research using CrewAI. Integrates EUR-Lex API for European legal documents, Slovenian case law processing, and enhanced research logging. Includes test suite for EU case research and EUR-Lex access validation.",
+    "techStack": [
+      "Python",
+      "CrewAI",
+      "EUR-Lex API",
+      "EU Legal Databases"
+    ],
+    "features": [
+      "EU case law research agents",
+      "EUR-Lex API integration",
+      "Slovenian legal case processing",
+      "Enhanced research logging",
+      "EU case research test suite",
+      "European legal document analysis"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/auto/legal-research-agents/legal-research-agents_ver1.png",
+    "featured": false,
+    "tags": [
+      "AI",
+      "Legal",
+      "EU",
+      "CrewAI",
+      "Python"
+    ]
+  },
+  {
+    "id": "slovenian-tts-platform",
+    "name": "Slovenian TTS Platform",
+    "tagline": "3 Native Slovenian Voices · Piper + Coqui + FastAPI",
+    "category": "AI & Machine Learning",
+    "subcategory": "Text-to-Speech / Slovenian",
+    "description": "Production-ready Slovenian TTS platform with 3 working voices: Artur (Piper TTS), Common Voice (Coqui TTS), and Piper E2 Enhanced. REST API for synthesis, speed control (0.5×–2.0×), multiple output formats, and PDF document reading with TTS output. 9/9 tests passed.",
+    "techStack": [
+      "Python",
+      "Piper TTS",
+      "Coqui TTS",
+      "FastAPI",
+      "PyTorch"
+    ],
+    "features": [
+      "3 Slovenian voices (Artur, Common Voice, Piper E2)",
+      "FastAPI REST API",
+      "Speed control (0.5x–2.0x)",
+      "WAV and MP3 output",
+      "PDF document reading with TTS",
+      "9/9 tests passed"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/supertonic-tts_sl.png",
+    "featured": false,
+    "tags": [
+      "AI",
+      "TTS",
+      "Slovenian",
+      "FastAPI",
+      "Python"
+    ],
+    "images": [
+      "/images/projectsscreenshots/supertonic-tts_sl.png"
+    ]
+  },
+  {
+    "id": "slovenian-exam-processor",
+    "name": "Slovenian Primary School Exam Processor",
+    "tagline": "5 AI Agents · OCR + Generation + Validation",
+    "category": "AI & Machine Learning",
+    "subcategory": "Education AI / OCR",
+    "description": "5-agent AI pipeline for processing Slovenian primary school exams. Agents handle image extraction (OCR + handwriting recognition), subject analysis and performance evaluation, new exam generation, print formatting (student + teacher PDF versions), and quality validation. Supports 8 subjects across grades 1–9.",
+    "techStack": [
+      "Python",
+      "Google Gemini 2.0 Flash",
+      "OCR",
+      "wkhtmltopdf"
+    ],
+    "features": [
+      "5 specialized AI agents",
+      "OCR + handwriting recognition",
+      "New exam generation",
+      "Student + teacher PDF output",
+      "8 Slovenian school subjects",
+      "Grades 1–9 support",
+      "85% OCR confidence threshold"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/auto/slovenian-exam-processor/slovenian-exam-processor_ver1.png",
+    "featured": false,
+    "tags": [
+      "AI",
+      "Education",
+      "OCR",
+      "Gemini",
+      "Python",
+      "Slovenian"
+    ]
+  },
+  {
+    "id": "legal-anonymizer",
+    "name": "Legal Anonymizer",
+    "tagline": "Offline PDF/DOCX Anonymization · SL + DE",
+    "category": "Tools & Utilities",
+    "subcategory": "Privacy / Legal / Document Processing",
+    "description": "Offline-first document anonymizer for PDF and DOCX files with Slovenian and German language support. Features automatic language detection, encrypted reversible mapping, CLI and FastAPI web UI, project-based organization with UUID tracking, and OCR integration for scanned documents.",
+    "techStack": [
+      "Python",
+      "FastAPI",
+      "PyMuPDF",
+      "python-docx",
+      "cryptography",
+      "langdetect"
+    ],
+    "features": [
+      "PDF + DOCX anonymization",
+      "Slovenian + German language support",
+      "Encrypted reversible mapping",
+      "CLI and Web UI (FastAPI)",
+      "Project-based UUID tracking",
+      "Automatic language detection",
+      "OCR for scanned documents"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/auto/legal-anonymizer/legal-anonymizer_ver1.png",
+    "featured": false,
+    "tags": [
+      "Privacy",
+      "Legal",
+      "Python",
+      "FastAPI",
+      "OCR",
+      "Slovenian"
+    ]
+  },
+  {
+    "id": "youtube-transcript-extractor",
+    "name": "YouTube Transcript Extractor",
+    "tagline": "Full Channel Extraction · SL/EN · Speaker ID",
+    "category": "Tools & Utilities",
+    "subcategory": "Data Extraction / NLP",
+    "description": "Complete YouTube channel transcript extraction tool with speaker identification from video titles and descriptions. Language preference: Slovenian → English → Auto-generated. Organized output by speaker category with comprehensive logging (CSV, JSON, text) and rate limiting awareness.",
+    "techStack": [
+      "Python",
+      "youtube-transcript-api",
+      "scrapetube",
+      "yt-dlp",
+      "BeautifulSoup4",
+      "pandas"
+    ],
+    "features": [
+      "Complete channel transcript extraction",
+      "Speaker identification from metadata",
+      "Slovenian → English language priority",
+      "Output organized by speaker category",
+      "CSV + JSON + text logging",
+      "Error handling for private/disabled videos"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/auto/youtube-transcript-extractor/youtube-transcript-extractor_ver1.png",
+    "featured": false,
+    "tags": [
+      "Python",
+      "YouTube",
+      "NLP",
+      "Data Extraction",
+      "Transcription"
+    ]
+  },
+  {
+    "id": "ipe-study-system",
+    "name": "IPE Study System",
+    "tagline": "International Protection of Environment — FDV",
+    "category": "Education & Research",
+    "subcategory": "Study Tools / Mind Maps",
+    "description": "Comprehensive study system for International Protection of the Environment at FDV Ljubljana. Visual Markmap mind maps, master study guide, topic-specific maps for Politics/Law/EU Policy/Case Studies, exam questions mapped to concepts, flashcards, and evidence-based study plan using 5 cognitive science techniques.",
+    "techStack": [
+      "Markdown",
+      "Markmap",
+      "JavaScript"
+    ],
+    "features": [
+      "Visual mind maps (Markmap)",
+      "Master study guide",
+      "Topic maps: Politics, Law, EU Policy, Case Studies",
+      "Exam questions mapped to concepts",
+      "Active recall flashcards",
+      "5 cognitive science study techniques"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/auto/ipe-study-system/ipe-study-system_ver1.png",
+    "featured": false,
+    "tags": [
+      "Education",
+      "Environment",
+      "Mind Maps",
+      "FDV",
+      "Markmap"
+    ]
+  },
+  {
+    "id": "slovenscina-6-razred",
+    "name": "Slovenščina za 6. razred",
+    "tagline": "Interactive Language Game — 6th Grade",
+    "category": "Education & Research",
+    "subcategory": "Interactive Learning / Language",
+    "description": "Interactive educational game for 6th grade Slovenian language curriculum. Six learning modules covering verbs, personal pronouns, numerals, indirect speech, writing assessment, and folk custom description. Each module includes learning content, exercises, and a quiz. Progress tracked via localStorage, deployed on Netlify.",
+    "techStack": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Vite",
+      "Netlify"
+    ],
+    "features": [
+      "6 interactive learning modules",
+      "Verbs, pronouns, numerals, indirect speech",
+      "Quiz system per module",
+      "Fun facts (Ali si vedel/a?) section",
+      "Progress tracking via localStorage",
+      "Netlify deployment"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/auto/slovenscina-6-razred/slovenscina-6-razred_ver1.png",
+    "featured": false,
+    "tags": [
+      "Education",
+      "Slovenian",
+      "Interactive",
+      "Language Learning",
+      "6th Grade"
+    ]
+  },
+  {
+    "id": "institut-pravice-otrok",
+    "name": "Institut za Pravice Otroka",
+    "tagline": "Children's Rights Institute — FDV",
+    "category": "Web Development",
+    "subcategory": "Education / Legal",
+    "description": "Educational website for the Institute for Children's Rights at FDV Ljubljana. Features information about children's rights, legal resources, educational materials, and advocacy tools for child protection.",
+    "techStack": [
+      "HTML5",
+      "CSS3",
+      "JavaScript"
+    ],
+    "features": [
+      "Children's rights information",
+      "Legal resources database",
+      "Educational materials",
+      "Advocacy tools",
+      "Mobile-responsive design"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/new/institutpraviceotrok_ver1.png",
+    "featured": false,
+    "tags": [
+      "Education",
+      "Children's Rights",
+      "Legal",
+      "FDV"
+    ]
+  },
+  {
+    "id": "sola6",
+    "name": "OŠ Šola 6",
+    "tagline": "Primary School Website",
+    "category": "Web Development",
+    "subcategory": "Education / School",
+    "description": "Modern primary school website with information about programs, events, staff, and student resources. Clean design optimized for parents and students.",
+    "techStack": [
+      "HTML5",
+      "CSS3",
+      "JavaScript"
+    ],
+    "features": [
+      "School information pages",
+      "Event calendar",
+      "Staff directory",
+      "Student resources",
+      "Parent portal",
+      "Mobile-responsive design"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/new/sola6_ver1.png",
+    "featured": false,
+    "tags": [
+      "Education",
+      "School",
+      "Primary School",
+      "Slovenia"
+    ]
+  },
+  {
+    "id": "voice-conversational-ai",
+    "name": "Conversational Voice AI Platform",
+    "tagline": "Real-time Voice AI with WebSocket",
+    "category": "AI & Machine Learning",
+    "subcategory": "Voice AI / Conversational",
+    "description": "Advanced conversational AI interface using neural voice synthesis with WebSocket support for real-time interactions.",
+    "techStack": [
+      "Next.js",
+      "TypeScript",
+      "Voice AI Engine",
+      "WebSockets"
+    ],
+    "features": [
+      "Real-time AI voice conversations",
+      "Intent detection and routing",
+      "Neural voice synthesis",
+      "Automated customer support flows",
+      "Handoff protocols"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/auto/voice-conversational-ai/voice-conversational-ai_ver1.png",
+    "featured": false,
+    "tags": [
+      "AI",
+      "Voice",
+      "WebSocket",
+      "Customer Service"
+    ]
+  },
+  {
+    "id": "green-spirit-ai-platform",
+    "name": "Green Spirit AI Platform",
+    "tagline": "Internal AI Tools Suite",
+    "category": "AI & Machine Learning",
+    "subcategory": "Internal Tools",
+    "description": "Internal AI platform for Green Spirit IT Solutions featuring various AI-powered tools and automations.",
+    "techStack": [
+      "Next.js",
+      "TypeScript",
+      "AI APIs"
+    ],
+    "features": [
+      "AI-powered tools",
+      "Automation workflows",
+      "Internal dashboard",
+      "Multi-model support"
+    ],
+    "status": "In Development",
+    "image": "/images/projectsscreenshots/auto/green-spirit-ai-platform/green-spirit-ai-platform_ver1.png",
+    "featured": false,
+    "tags": [
+      "AI",
+      "Internal Tools",
+      "Next.js"
+    ]
+  },
+  {
+    "id": "plesni-studio-s",
+    "name": "Plesni Studio S",
+    "tagline": "Dance Studio Management — Maribor",
+    "category": "Web Development",
+    "subcategory": "Dance / Lifestyle",
+    "description": "Modern full-stack dance studio website with online class booking, schedule with filtering, student portal, WhatsApp integration, event calendar, gallery with lightbox, and multi-language support for Plesni Studio S in Maribor.",
+    "techStack": [
+      "React 18",
+      "Vite",
+      "TailwindCSS",
+      "Shadcn UI",
+      "Framer Motion",
+      "React Router"
+    ],
+    "features": [
+      "Online booking for dance classes",
+      "Class schedule with filtering",
+      "Student portal",
+      "WhatsApp integration",
+      "Gallery with lightbox",
+      "Multi-language (SL/EN)"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/auto/plesni-studio-s/plesni-studio-s_ver1.png",
+    "featured": true,
+    "tags": [
+      "React",
+      "Dance",
+      "Booking",
+      "Shadcn UI"
+    ]
+  },
+  {
+    "id": "researcher-agents",
+    "name": "Researcher Agents",
+    "tagline": "Multi-Agent AI Research System",
+    "category": "AI & Machine Learning",
+    "subcategory": "Research Automation",
+    "description": "Multi-agent AI system for automated scientific literature search and synthesis. Specialized agents handle document ingestion, research planning, literature retrieval, article synthesis, fact verification, and citation management.",
+    "techStack": [
+      "Python",
+      "Multi-Agent Framework",
+      "LLM APIs",
+      "Flask"
+    ],
+    "features": [
+      "Multiple specialized AI agents",
+      "Academic database integration",
+      "Fact verification with source validation",
+      "Citation validation",
+      "Vector database storage",
+      "Web interface"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/auto/researcher-agents/researcher-agents_ver1.png",
+    "featured": false,
+    "tags": [
+      "AI",
+      "Research",
+      "Multi-Agent",
+      "Python"
+    ]
+  },
+  {
+    "id": "transcription-system",
+    "name": "Speech Transcription System",
+    "tagline": "High-Accuracy ASR with Speaker Diarization",
+    "category": "AI & Machine Learning",
+    "subcategory": "Speech Recognition / Transcription",
+    "description": "High-accuracy speech transcription system using advanced ASR with speaker diarization. Identifies who said what and when with timestamp-aligned transcription.",
+    "techStack": [
+      "Python",
+      "ASR Engine",
+      "Speaker Diarization Library",
+      "PyTorch"
+    ],
+    "features": [
+      "High-accuracy transcription",
+      "Speaker diarization (who said what)",
+      "Timestamp-aligned output",
+      "Batch and real-time modes",
+      "Multi-language support"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/auto/transcription-system/transcription-system_ver1.png",
+    "featured": false,
+    "tags": [
+      "AI",
+      "ASR",
+      "Speech",
+      "Speaker Diarization"
+    ]
+  },
+  {
+    "id": "multilingual-asr",
+    "name": "Multilingual Speech Recognition",
+    "tagline": "52 Languages — Web UI + FastAPI + CLI",
+    "category": "AI & Machine Learning",
+    "subcategory": "Speech Recognition / ASR",
+    "description": "Complete web-based implementation supporting 52 languages and dialects including regional variants. Three interface modes: Web GUI, FastAPI real-time streaming, and CLI batch processor.",
+    "techStack": [
+      "Python",
+      "ASR Model",
+      "Web UI Framework",
+      "FastAPI",
+      "PyTorch",
+      "WebSocket"
+    ],
+    "features": [
+      "52 languages supported",
+      "Regional dialect support",
+      "Web GUI + FastAPI streaming + CLI",
+      "Word-level timestamps",
+      "CUDA GPU acceleration",
+      "Real-time WebSocket streaming"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/auto/multilingual-asr/multilingual-asr_ver1.png",
+    "featured": false,
+    "tags": [
+      "AI",
+      "ASR",
+      "Speech",
+      "Multi-language",
+      "Python"
+    ]
+  },
+  {
+    "id": "browser-tts-engine",
+    "name": "Browser-Native Text-to-Speech Engine",
+    "tagline": "167× Real-Time Browser TTS Engine",
+    "category": "AI & Machine Learning",
+    "subcategory": "Text-to-Speech / Browser",
+    "description": "Browser-native TTS interface using optimized neural model. Multiple preset voices, multi-language support, faster than real-time synthesis, complete privacy with zero server calls, adjustable parameters, WAV download.",
+    "techStack": [
+      "JavaScript",
+      "ONNX Runtime",
+      "Vite",
+      "Web Audio API",
+      "CSS3"
+    ],
+    "features": [
+      "Multiple voices",
+      "Multi-language support",
+      "Real-time synthesis speed",
+      "100% in-browser",
+      "CPU/GPU backend selection",
+      "WAV audio download"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/supertonic-tts_home.png",
+    "featured": false,
+    "tags": [
+      "AI",
+      "TTS",
+      "Browser ML",
+      "ONNX",
+      "JavaScript"
+    ],
+    "images": [
+      "/images/projectsscreenshots/supertonic-tts_home.png",
+      "/images/projectsscreenshots/supertonic-tts_mobile.png",
+      "/images/projectsscreenshots/supertonic-tts_tablet.png"
+    ]
+  },
+  {
+    "id": "real-time-translator",
+    "name": "Real-Time Speech Translator",
+    "tagline": "Neural Speech-to-Speech Translation",
+    "category": "AI & Machine Learning",
+    "subcategory": "Speech Translation",
+    "description": "Real-time speech translation and transcription system powered by advanced neural speech model. Supports multi-language transcription with speaker identification and live translation output.",
+    "techStack": [
+      "Python",
+      "PyTorch",
+      "Transformers",
+      "Neural Speech Model"
+    ],
+    "features": [
+      "Real-time speech translation",
+      "Neural speech model",
+      "Multi-language support",
+      "Speaker identification",
+      "Live transcription output"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/auto/real-time-translator/real-time-translator_ver1.png",
+    "featured": false,
+    "tags": [
+      "AI",
+      "Speech",
+      "Translation",
+      "Python"
+    ]
+  },
+  {
+    "id": "autonomous-research-system",
+    "name": "ARIS — Autonomous Research System",
+    "tagline": "31+ Skills · AI Code Generation · Autonomous Research",
+    "category": "AI & Machine Learning",
+    "subcategory": "Research Automation / Agentic",
+    "description": "Autonomous research system with 31+ skill modules running overnight. Built on Markdown-defined skills with AI code generation agents and multi-model collaboration for continuous research output.",
+    "techStack": [
+      "Python",
+      "AI Code Agents",
+      "MCP Integration",
+      "Multi-model AI"
+    ],
+    "features": [
+      "31+ autonomous skill modules",
+      "Overnight research execution",
+      "Multi-model collaboration",
+      "Markdown-defined skill system",
+      "MCP integration",
+      "Continuous output generation"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/auto/autonomous-research-system/autonomous-research-system_ver1.png",
+    "featured": false,
+    "tags": [
+      "AI",
+      "Autonomous",
+      "Research",
+      "Agentic"
+    ]
+  },
+  {
+    "id": "verified-research-system",
+    "name": "Verified Source Research System",
+    "tagline": "Multi-Agent Research with Verified Sources",
+    "category": "AI & Machine Learning",
+    "subcategory": "Research Automation",
+    "description": "Multi-agent research orchestration system using LLM gateway and academic database APIs for verified source synthesis. Agents work in parallel to gather, verify, and synthesize research from academic sources.",
+    "techStack": [
+      "Python",
+      "Flask",
+      "LLM Gateway",
+      "Academic Database API"
+    ],
+    "features": [
+      "Multi-agent parallel research",
+      "Academic source verification",
+      "Multi-model access",
+      "Verified source synthesis",
+      "Flask web interface"
+    ],
+    "status": "Complete",
+    "image": "/images/projectsscreenshots/auto/verified-research-system/verified-research-system_ver1.png",
+    "featured": false,
+    "tags": [
+      "AI",
+      "Research",
+      "Multi-Agent",
+      "Python"
+    ]
+  }
+]

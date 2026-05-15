@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coach Training Registration Confirmed</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { 
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      background: linear-gradient(135deg, #0c1810 0%, #1a3a2a 100%);
+      min-height: 100vh;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      background: #ffffff;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    }
+    .header {
+      background: linear-gradient(135deg, #10b981 0%, #059669 50%, #047857 100%);
+      padding: 48px 40px;
+      text-align: center;
+      position: relative;
+    }
+    .badge {
+      display: inline-block;
+      background: rgba(255,255,255,0.2);
+      color: #ffffff;
+      padding: 8px 20px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 20px;
+      border: 1px solid rgba(255,255,255,0.3);
+    }
+    .success-icon {
+      width: 100px;
+      height: 100px;
+      background: rgba(255,255,255,0.15);
+      border-radius: 50%;
+      margin: 0 auto 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 50px;
+      border: 3px solid rgba(255,255,255,0.3);
+    }
+    .header h1 {
+      color: #ffffff;
+      font-size: 30px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+    }
+    .header p {
+      color: rgba(255,255,255,0.9);
+      margin-top: 8px;
+      font-size: 16px;
+    }
+    .content {
+      padding: 48px 40px;
+    }
+    .greeting {
+      font-size: 22px;
+      color: #111827;
+      margin-bottom: 16px;
+      font-weight: 600;
+    }
+    .message {
+      color: #6b7280;
+      font-size: 16px;
+      line-height: 1.7;
+      margin-bottom: 32px;
+    }
+    .training-card {
+      background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%);
+      border: 1px solid #a7f3d0;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 32px;
+    }
+    .training-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: #065f46;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .training-module {
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 16px;
+      border-left: 4px solid #10b981;
+    }
+    .module-name {
+      font-weight: 600;
+      color: #111827;
+      font-size: 16px;
+      margin-bottom: 8px;
+    }
+    .module-meta {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .meta-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 13px;
+      color: #6b7280;
+    }
+    .schedule-box {
+      background: #111827;
+      border-radius: 16px;
+      padding: 28px;
+      color: #ffffff;
+      margin-bottom: 32px;
+    }
+    .schedule-title {
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 20px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+    .schedule-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+    .schedule-item:last-child {
+      border-bottom: none;
+    }
+    .schedule-date {
+      font-weight: 500;
+    }
+    .schedule-time {
+      color: rgba(255,255,255,0.6);
+      font-size: 14px;
+    }
+    .coach-profile {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      background: #f9fafb;
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 32px;
+    }
+    .coach-avatar {
+      width: 70px;
+      height: 70px;
+      background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 30px;
+      flex-shrink: 0;
+    }
+    .coach-info {
+      flex: 1;
+    }
+    .coach-label {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: #6b7280;
+      margin-bottom: 4px;
+    }
+    .coach-name {
+      font-size: 18px;
+      font-weight: 700;
+      color: #111827;
+      margin-bottom: 4px;
+    }
+    .coach-title {
+      font-size: 14px;
+      color: #10b981;
+      font-weight: 500;
+    }
+    .button {
+      display: inline-block;
+      background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+      color: #ffffff;
+      text-decoration: none;
+      padding: 18px 40px;
+      border-radius: 12px;
+      font-size: 16px;
+      font-weight: 600;
+      box-shadow: 0 4px 14px rgba(16, 185, 129, 0.4);
+    }
+    .materials-box {
+      background: #eff6ff;
+      border: 1px solid #dbeafe;
+      border-radius: 12px;
+      padding: 20px;
+      margin-top: 28px;
+    }
+    .materials-title {
+      font-weight: 600;
+      color: #1e40af;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .materials-list {
+      list-style: none;
+    }
+    .materials-list li {
+      padding: 8px 0;
+      color: #3b82f6;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .footer {
+      background: #f9fafb;
+      padding: 32px 40px;
+      text-align: center;
+      border-top: 1px solid #e5e7eb;
+    }
+    .footer-text {
+      color: #6b7280;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+    .contact-box {
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 20px;
+      margin-top: 20px;
+      border: 1px solid #e5e7eb;
+    }
+    .divider {
+      height: 1px;
+      background: #e5e7eb;
+      margin: 32px 0;
+    }
+    @media (max-width: 600px) {
+      body { padding: 20px 10px; }
+      .content, .header, .footer { padding: 32px 24px; }
+      .module-meta { flex-direction: column; gap: 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="badge">Coach Training Program</div>
+      <div class="success-icon">🎯</div>
+      <h1>Welcome to the Team!</h1>
+      <p>{{ .Training.Name }}</p>
+    </div>
+    
+    <div class="content">
+      <p class="greeting">Congratulations {{ .User.FirstName }}! 🌟</p>
+      <p class="message">
+        Your registration for our coach training program has been confirmed. 
+        You're taking the first step toward becoming a certified coach. 
+        We're thrilled to have you on this journey!
+      </p>
+      
+      <div class="training-card">
+        <div class="training-title">📚 Training Modules</div>
+        
+        <div class="training-module">
+          <div class="module-name">Module 1: Foundation & Principles</div>
+          <div class="module-meta">
+            <span class="meta-item">📅 Week 1-2</span>
+            <span class="meta-item">⏱ 8 hours</span>
+            <span class="meta-item">💻 Online</span>
+          </div>
+        </div>
+        
+        <div class="training-module">
+          <div class="module-name">Module 2: Communication Skills</div>
+          <div class="module-meta">
+            <span class="meta-item">📅 Week 3-4</span>
+            <span class="meta-item">⏱ 12 hours</span>
+            <span class="meta-item">👥 Workshop</span>
+          </div>
+        </div>
+        
+        <div class="training-module">
+          <div class="module-name">Module 3: Practical Application</div>
+          <div class="module-meta">
+            <span class="meta-item">📅 Week 5-6</span>
+            <span class="meta-item">⏱ 16 hours</span>
+            <span class="meta-item">🤝 Mentorship</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="schedule-box">
+        <div class="schedule-title">📅 Your Training Schedule</div>
+        <div class="schedule-item">
+          <span class="schedule-date">{{ .Training.StartDate }}</span>
+          <span class="schedule-time">Program Start</span>
+        </div>
+        <div class="schedule-item">
+          <span class="schedule-date">Every {{ .Training.Day }}</span>
+          <span class="schedule-time">{{ .Training.Time }}</span>
+        </div>
+        <div class="schedule-item">
+          <span class="schedule-date">{{ .Training.EndDate }}</span>
+          <span class="schedule-time">Certification</span>
+        </div>
+      </div>
+      
+      <div class="coach-profile">
+        <div class="coach-avatar">👨‍🏫</div>
+        <div class="coach-info">
+          <div class="coach-label">Your Lead Trainer</div>
+          <div class="coach-name">{{ .Trainer.Name }}</div>
+          <div class="coach-title">{{ .Trainer.Title }}</div>
+        </div>
+      </div>
+      
+      <center>
+        <a href="{{ .Training.PortalLink }}" class="button">Access Learning Portal</a>
+      </center>
+      
+      <div class="materials-box">
+        <div class="materials-title">📋 Pre-Training Checklist</div>
+        <ul class="materials-list">
+          <li>✓ Complete pre-assessment survey</li>
+          <li>✓ Join our private community group</li>
+          <li>✓ Download training materials</li>
+          <li>✓ Test your video/audio setup</li>
+        </ul>
+      </div>
+      
+      <div class="divider"></div>
+      
+      <div class="contact-box">
+        <p class="footer-text" style="margin: 0;">
+          <strong>Need help?</strong><br>
+          Contact our training coordinator:<br>
+          📧 <a href="mailto:training@greenspirit.si" style="color: #10b981;">training@greenspirit.si</a> | 
+          📞 {{ .Support.Phone }}
+        </p>
+      </div>
+    </div>
+    
+    <div class="footer">
+      <p class="footer-text">
+        <strong>Green Spirit IT Solutions</strong><br>
+        Empowering coaches to transform lives<br>
+        <a href="{{ .SiteURL }}/training" style="color: #10b981;">www.greenspirit.si/training</a>
+      </p>
+    </div>
+  </div>
+</body>
+</html>

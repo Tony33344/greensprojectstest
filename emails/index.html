@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Green Spirit Email Templates</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: linear-gradient(135deg, #0a0f0a 0%, #1a2e1a 100%);
+      min-height: 100vh;
+      padding: 60px 20px;
+      color: #ffffff;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+    .logo {
+      width: 80px;
+      height: 80px;
+      background: rgba(16, 185, 129, 0.2);
+      border-radius: 20px;
+      margin: 0 auto 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 40px;
+      border: 2px solid rgba(16, 185, 129, 0.4);
+    }
+    h1 {
+      font-size: 42px;
+      font-weight: 700;
+      margin-bottom: 12px;
+      background: linear-gradient(135deg, #10b981 0%, #34d399 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .subtitle {
+      color: rgba(255,255,255,0.6);
+      font-size: 18px;
+    }
+    .templates-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+      gap: 24px;
+    }
+    .template-card {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 20px;
+      padding: 32px;
+      transition: all 0.3s ease;
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+    .template-card:hover {
+      background: rgba(255,255,255,0.08);
+      border-color: rgba(16, 185, 129, 0.4);
+      transform: translateY(-4px);
+    }
+    .card-icon {
+      width: 56px;
+      height: 56px;
+      border-radius: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+    .verification { background: linear-gradient(135deg, #10b981 0%, #059669 100%); }
+    .event { background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%); }
+    .training { background: linear-gradient(135deg, #10b981 0%, #047857 100%); }
+    .membership { background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%); }
+    
+    .card-title {
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 8px;
+      color: #ffffff;
+    }
+    .card-desc {
+      color: rgba(255,255,255,0.6);
+      font-size: 15px;
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+    .card-meta {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .meta-tag {
+      background: rgba(255,255,255,0.1);
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 12px;
+      color: rgba(255,255,255,0.7);
+    }
+    .view-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 20px;
+      color: #10b981;
+      font-weight: 600;
+      font-size: 14px;
+    }
+    .instructions {
+      background: rgba(16, 185, 129, 0.1);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      border-radius: 16px;
+      padding: 32px;
+      margin-top: 48px;
+    }
+    .instructions h2 {
+      font-size: 20px;
+      margin-bottom: 16px;
+      color: #10b981;
+    }
+    .instructions p {
+      color: rgba(255,255,255,0.7);
+      line-height: 1.7;
+      margin-bottom: 12px;
+    }
+    .instructions code {
+      background: rgba(0,0,0,0.3);
+      padding: 4px 8px;
+      border-radius: 6px;
+      font-family: 'Monaco', 'Courier New', monospace;
+      font-size: 13px;
+      color: #34d399;
+    }
+    @media (max-width: 600px) {
+      .templates-grid { grid-template-columns: 1fr; }
+      h1 { font-size: 32px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="logo">🌿</div>
+      <h1>Email Templates</h1>
+      <p class="subtitle">Beautiful, responsive email designs for Green Spirit</p>
+    </div>
+    
+    <div class="templates-grid">
+      <a href="email-verification.html" class="template-card">
+        <div class="card-icon verification">✉️</div>
+        <h3 class="card-title">Email Verification</h3>
+        <p class="card-desc">Supabase-compatible email confirmation template with verification code display and security notice.</p>
+        <div class="card-meta">
+          <span class="meta-tag">Supabase</span>
+          <span class="meta-tag">Auth</span>
+        </div>
+        <div class="view-btn">Preview Template →</div>
+      </a>
+      
+      <a href="event-registration.html" class="template-card">
+        <div class="card-icon event">🎉</div>
+        <h3 class="card-title">Event Registration</h3>
+        <p class="card-desc">Confirmation email for event sign-ups with ticket details, calendar integration, and QR code placeholder.</p>
+        <div class="card-meta">
+          <span class="meta-tag">Events</span>
+          <span class="meta-tag">Tickets</span>
+        </div>
+        <div class="view-btn">Preview Template →</div>
+      </a>
+      
+      <a href="coach-training-registration.html" class="template-card">
+        <div class="card-icon training">🎯</div>
+        <h3 class="card-title">Coach Training Registration</h3>
+        <p class="card-desc">Welcome email for coach certification program with training modules, schedule, and portal access.</p>
+        <div class="card-meta">
+          <span class="meta-tag">Training</span>
+          <span class="meta-tag">Onboarding</span>
+        </div>
+        <div class="view-btn">Preview Template →</div>
+      </a>
+      
+      <a href="membership-confirmation.html" class="template-card">
+        <div class="card-icon membership">💎</div>
+        <h3 class="card-title">Membership Confirmation</h3>
+        <p class="card-desc">Premium membership welcome email with benefits showcase, billing details, and member portal access.</p>
+        <div class="card-meta">
+          <span class="meta-tag">Membership</span>
+          <span class="meta-tag">Premium</span>
+        </div>
+        <div class="view-btn">Preview Template →</div>
+      </a>
+    </div>
+    
+    <div class="instructions">
+      <h2>📋 How to Use These Templates</h2>
+      <p><strong>For Supabase:</strong> Go to Authentication → Email Templates and paste the HTML. Variables like <code>{{ .Token }}</code> and <code>{{ .ConfirmationURL }}</code> are already formatted for Supabase.</p>
+      <p><strong>For Hostpoint.ch (SMTP):</strong> Use a template engine to replace variables with actual data, then send via SMTP with HTML content type.</p>
+      <p><strong>Preview:</strong> Click any template above to see it in your browser. Use browser DevTools to test mobile responsiveness.</p>
+    </div>
+  </div>
+</body>
+</html>
