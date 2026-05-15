@@ -41,7 +41,7 @@ export default function Nav() {
             alt="Green Spirit IT Solutions"
             width={2700}
             height={750}
-            className="h-10 w-auto object-contain transition-opacity group-hover:opacity-80"
+            className="h-14 w-auto object-contain transition-opacity group-hover:opacity-80"
             unoptimized
           />
         </Link>
