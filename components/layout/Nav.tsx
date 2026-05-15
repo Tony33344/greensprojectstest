@@ -34,12 +34,12 @@ export default function Nav() {
           : "bg-transparent border-b border-transparent"
       )}
     >
-      <div className="max-w-7xl mx-auto px-6 lg:px-8 h-20 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-6 lg:px-8 h-28 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-3 group flex-shrink-0">
           <img
             src="/images/logo.png"
             alt="Green Spirit IT Solutions"
-            className="h-20 w-auto object-contain transition-opacity group-hover:opacity-80"
+            className="h-24 w-auto object-contain transition-opacity group-hover:opacity-80"
           />
         </Link>
 
