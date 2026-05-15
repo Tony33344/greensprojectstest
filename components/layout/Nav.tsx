@@ -36,13 +36,10 @@ export default function Nav() {
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-8 h-20 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-3 group flex-shrink-0">
-          <Image
+          <img
             src="/images/logo.png"
             alt="Green Spirit IT Solutions"
-            width={2700}
-            height={750}
             className="h-20 w-auto object-contain transition-opacity group-hover:opacity-80"
-            unoptimized
           />
         </Link>
 
