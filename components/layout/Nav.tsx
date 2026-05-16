@@ -39,7 +39,7 @@ export default function Nav() {
           <img
             src="/images/logo.png"
             alt="Green Spirit IT Solutions"
-            className="h-28 w-auto object-contain transition-opacity group-hover:opacity-80"
+            className="h-28 w-auto object-contain scale-[2.5] origin-left transition-opacity group-hover:opacity-80"
           />
         </Link>
 
